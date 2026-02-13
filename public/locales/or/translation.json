@@ -1,0 +1,73 @@
+{
+  "nav": {
+    "features": "Amaloota",
+    "plans": "Karoora",
+    "support": "Deeggarsa",
+    "download": "Appii Buufadhaa"
+  },
+  "hero": {
+    "headline": "Farmasii Keessan Bilbila Keessan Irraa Hoogganaa",
+    "subheadline": "MedFinder Inveenterii hordofuu, gurgurtaa too’achuu, hojjettoota bulchuu fi xiinxala gaggeessuuf isin gargaara — hunda bilbila harkaa keessan irraa.",
+    "cta_app_store": "App Store Irraa Buufadhaa",
+    "cta_google_play": "Google Play Irraa Argadhaa"
+  },
+  "features": {
+    "title": "Waan guddinaaf isin barbaachisu hunda",
+    "subtitle": "Meeshaalee humna qabeeyyii addatti farmasiivoota Itoophiyaatiif ijaaraman.",
+    "inventory": { "title": "Hordoffii Inveenterii", "desc": "Sadarkaa istookii, lakkoofsa baachii fi gatii yeroo dhugaa keessatti hordofuu." },
+    "analytics": { "title": "Gurgurtaa & Xiinxala", "desc": "Gurgurtaa guyyaa, bu\u2019aa fi meeshaalee baay\u2019ee gurguraman zwisualaaizii godhaa." },
+    "scanner": { "title": "Iskaanara Baarkoodii", "desc": "Qorichoota battalumatti gurguruuf ykn inveenteriitti dabaluuf iskaan godhaa." },
+    "alerts": { "title": "Akeekkachiisa Guyyaa Darbuu", "desc": "Oso qorichoonni guyyaan hin darbin ykn istookiin hin dhumatin dura beeksisa argadhaa." },
+    "multistore": { "title": "Deeggarsa Suuqii Baay\u2019ee", "desc": "Dameewwan farmasii baay\u2019ee herrega tokko irraa bulchaa." },
+    "staff": { "title": "Bulchiinsa Hojjettootaa", "desc": "Gahee fi hayyama faarmasistoota keessaniif ramadaa." },
+    "csv": { "title": "CSV Seensisuu/Erguu", "desc": "Qorichoota baay\u2019inaan seensisuu fi gabaasa herregaaf erguu." }
+  },
+  "pricing": {
+    "title": "Gatii Salphaa fi Ifa Ta'e",
+    "monthly": "/ ji'atti",
+    "plans": {
+      "basic": {
+        "name": "Bu'uura",
+        "price": "199",
+        "desc": "Farmasiivoota xixiqqoo reefu jalqabaniif mijataa."
+      },
+      "standard": {
+        "name": "Idilee",
+        "price": "499",
+        "desc": "Farmasiivoota guddachaa jiran fi gurgurtaa qabaniif filatamaa.",
+        "popular": "Baay'ee Jaallatamaa"
+      },
+      "premium": {
+        "name": "Preemiyeemii",
+        "price": "999",
+        "desc": "Farmasiivoota gurguddoo fi walitti hidhamiinsa qabaniif."
+      }
+    },
+    "features": {
+      "500_meds": "Hanga qorichoota 500",
+      "unlimited_meds": "Qorichoota daangaa hin qabne",
+      "1_staff": "Hojjetaa 1",
+      "5_staff": "Hanga hojjettoota 5",
+      "unlimited_staff": "Hojjettoota daangaa hin qabne",
+      "core_features": "Amaloota inveenterii ijoo",
+      "csv_export": "CSV erguu + raaga",
+      "multistore": "Bulchiinsa suuqii baay'ee",
+      "ai_prediction": "Raaga fedhii AI",
+      "priority_support": "Deeggarsa dursaa"
+    },
+    "cta": "Karoora Filadhaa"
+  },
+  "download": {
+    "title": "Farmasii keessan ammayyeessuuf qophooftuu?",
+    "subtitle": "Farmasiivoota dhibbaan lakkaa'aman kanneen har'a MedFinder fayyadamanitti makamaa.",
+    "cta": "Amma Jalqabaa"
+  },
+  "footer": {
+    "product": "Oomisha",
+    "company": "Kaampaanii",
+    "contact": "Nu Quunnamaa",
+    "privacy": "Imaammata Dhuunfaa",
+    "terms": "Waliigaltee Tajaajilaa",
+    "rights": "Mirgi hundi kan eegame."
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "nav": {
+    "features": "Features",
+    "plans": "Plans",
+    "support": "Support",
+    "download": "Download App"
+  },
+  "hero": {
+    "headline": "Run Your Pharmacy From Your Phone",
+    "subheadline": "MedFinder helps you track inventory, monitor sales, manage staff, and run analytics — all from your mobile device.",
+    "cta_app_store": "Download on App Store",
+    "cta_google_play": "Get it on Google Play"
+  },
+  "features": {
+    "title": "Everything you need to grow",
+    "subtitle": "Powerful tools built specifically for Ethiopian pharmacies.",
+    "inventory": { "title": "Inventory Tracking", "desc": "Real-time tracking of stock levels, batch numbers, and prices." },
+    "analytics": { "title": "Sales & Analytics", "desc": "Visualize daily sales, profit margins, and top-selling items." },
+    "scanner": { "title": "Barcode Scanner", "desc": "Scan medicines instantly to sell or add to inventory." },
+    "alerts": { "title": "Expiry Alerts", "desc": "Get notified before medicines expire or stock runs low." },
+    "multistore": { "title": "Multi-store Support", "desc": "Manage multiple pharmacy branches from a single account." },
+    "staff": { "title": "Staff Management", "desc": "Assign roles and permissions to your pharmacists." },
+    "csv": { "title": "CSV Import/Export", "desc": "Bulk import medicines and export reports for accounting." }
+  },
+  "pricing": {
+    "title": "Simple, Transparent Pricing",
+    "monthly": "/ month",
+    "plans": {
+      "basic": {
+        "name": "Basic",
+        "price": "199",
+        "desc": "Perfect for small pharmacies just starting out."
+      },
+      "standard": {
+        "name": "Standard",
+        "price": "499",
+        "desc": "Best for growing pharmacies with active sales.",
+        "popular": "Most Popular"
+      },
+      "premium": {
+        "name": "Premium",
+        "price": "999",
+        "desc": "For large pharmacies and chains needing advanced tools."
+      }
+    },
+    "features": {
+      "500_meds": "Up to 500 medicines",
+      "unlimited_meds": "Unlimited medicines",
+      "1_staff": "1 staff member",
+      "5_staff": "Up to 5 staff members",
+      "unlimited_staff": "Unlimited staff",
+      "core_features": "Core inventory features",
+      "csv_export": "CSV export + forecasts",
+      "multistore": "Multi-store management",
+      "ai_prediction": "AI demand prediction",
+      "priority_support": "Priority support"
+    },
+    "cta": "Choose Plan"
+  },
+  "download": {
+    "title": "Ready to modernize your pharmacy?",
+    "subtitle": "Join hundreds of pharmacies across Ethiopia using MedFinder today.",
+    "cta": "Get Started Now"
+  },
+  "footer": {
+    "product": "Product",
+    "company": "Company",
+    "contact": "Contact",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "rights": "All rights reserved."
+  }
+}
