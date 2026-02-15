@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X, Globe, ChevronDown } from 'lucide-react';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 
 const languages = [
   { code: 'en', name: 'English' },
@@ -15,12 +16,29 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const [langMenuOpen, setLangMenuOpen] = useState(false);
+  const location = useLocation();
+  const navigate = useNavigate();
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 20);
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
+
+  // Handle cross-page scrolling
+  const scrollToSection = (sectionId) => {
+    setIsOpen(false);
+    if (location.pathname !== '/') {
+      navigate('/');
+      setTimeout(() => {
+        const element = document.getElementById(sectionId);
+        if (element) element.scrollIntoView({ behavior: 'smooth' });
+      }, 100);
+    } else {
+      const element = document.getElementById(sectionId);
+      if (element) element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
 
   const changeLanguage = (lng) => {
     i18n.changeLanguage(lng);
@@ -32,13 +50,13 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           <div className="flex-shrink-0 flex items-center">
-            <span className="text-2xl font-bold text-orange-500 tracking-tight">MedFinder</span>
+            <Link to="/" className="text-2xl font-bold text-orange-500 tracking-tight">MedFinder</Link>
           </div>
           
           <div className="hidden md:flex items-center space-x-8">
-            <a href="#features" className="text-gray-600 hover:text-orange-500 transition-colors font-medium">{t('nav.features')}</a>
-            <a href="#plans" className="text-gray-600 hover:text-orange-500 transition-colors font-medium">{t('nav.plans')}</a>
-            <a href="#support" className="text-gray-600 hover:text-orange-500 transition-colors font-medium">{t('nav.support')}</a>
+            <button onClick={() => scrollToSection('features')} className="text-gray-600 hover:text-orange-500 transition-colors font-medium">{t('nav.features')}</button>
+            <button onClick={() => scrollToSection('plans')} className="text-gray-600 hover:text-orange-500 transition-colors font-medium">{t('nav.plans')}</button>
+            <button onClick={() => scrollToSection('support')} className="text-gray-600 hover:text-orange-500 transition-colors font-medium">{t('nav.support')}</button>
             
             <div className="relative">
               <button 
@@ -97,9 +115,24 @@ export default function Navbar() {
             className="md:hidden bg-white border-t border-gray-100 overflow-hidden"
           >
             <div className="px-4 pt-4 pb-8 space-y-4">
-              <a href="#features" className="block py-3 text-lg font-medium text-gray-700 border-b border-gray-50 hover:text-orange-500" onClick={() => setIsOpen(false)}>{t('nav.features')}</a>
-              <a href="#plans" className="block py-3 text-lg font-medium text-gray-700 border-b border-gray-50 hover:text-orange-500" onClick={() => setIsOpen(false)}>{t('nav.plans')}</a>
-              <a href="#support" className="block py-3 text-lg font-medium text-gray-700 border-b border-gray-50 hover:text-orange-500" onClick={() => setIsOpen(false)}>{t('nav.support')}</a>
+              <button 
+                onClick={() => scrollToSection('features')} 
+                className="block w-full text-left py-3 text-lg font-medium text-gray-700 border-b border-gray-50 hover:text-orange-500"
+              >
+                {t('nav.features')}
+              </button>
+              <button 
+                onClick={() => scrollToSection('plans')} 
+                className="block w-full text-left py-3 text-lg font-medium text-gray-700 border-b border-gray-50 hover:text-orange-500"
+              >
+                {t('nav.plans')}
+              </button>
+              <button 
+                onClick={() => scrollToSection('support')} 
+                className="block w-full text-left py-3 text-lg font-medium text-gray-700 border-b border-gray-50 hover:text-orange-500"
+              >
+                {t('nav.support')}
+              </button>
               
               <div className="py-4">
                 <p className="text-xs text-gray-400 mb-3 uppercase tracking-wider font-semibold">Language</p>
