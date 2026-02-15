@@ -36,7 +36,7 @@ export default function Pricing() {
       </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <div className="text-center mb-16" data-aos="fade-up">
+        <div className="text-center mb-16" data-aos="fade-down">
            <span className="text-orange-600 font-bold tracking-wider uppercase text-sm mb-3 block">Simple Pricing</span>
            <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900 tracking-tight mb-6">{t('pricing.title')}</h2>
            
@@ -76,7 +76,7 @@ function PricingCard({ plan, index, t, billingCycle }) {
   return (
     <motion.div
       layout
-      data-aos="fade-up"
+      data-aos={index === 0 ? "fade-right" : index === 1 ? "zoom-in" : "fade-left"}
       data-aos-delay={index * 100}
       whileHover={{ y: -8 }}
       className={`relative p-8 rounded-[2rem] border transition-all duration-300 flex flex-col h-full ${
@@ -117,8 +117,13 @@ function PricingCard({ plan, index, t, billingCycle }) {
       </div>
 
       <ul className="space-y-4 mb-8 flex-grow">
-        {plan.features.map((featureKey) => (
-          <li key={featureKey} className="flex items-start space-x-3">
+        {plan.features.map((featureKey, i) => (
+          <li 
+            key={featureKey} 
+            className="flex items-start space-x-3"
+            data-aos="fade-up"
+            data-aos-delay={100 + (i * 100)} // Stagger based on item index
+          >
             <div className={`mt-0.5 w-5 h-5 rounded-full flex items-center justify-center flex-shrink-0 ${isPopular ? 'bg-orange-100 text-orange-600' : 'bg-gray-100 text-gray-600'}`}>
               <Check size={12} strokeWidth={3} />
             </div>
@@ -127,7 +132,10 @@ function PricingCard({ plan, index, t, billingCycle }) {
         ))}
       </ul>
 
-      <button className={`w-full py-4 rounded-xl font-bold transition-all duration-200 ${
+      <button 
+        data-aos="zoom-in"
+        data-aos-delay={500}
+        className={`w-full py-4 rounded-xl font-bold transition-all duration-200 ${
         isPopular 
           ? 'bg-gray-900 text-white hover:bg-black shadow-lg hover:shadow-xl hover:-translate-y-1' 
           : 'bg-white border-2 border-gray-100 text-gray-900 hover:border-gray-900 hover:bg-gray-50'

@@ -16,13 +16,16 @@ import Privacy from './pages/Privacy';
 import Terms from './pages/Terms';
 
 function App() {
-  useEffect(() => {
-    AOS.init({
-      duration: 1000,
-      once: true,
-      easing: 'ease-out-cubic',
-    });
-  }, []);
+ useEffect(() => {
+  AOS.init({
+    duration: 1000,
+    mirror: true,
+    easing: 'ease-out-cubic',
+  });
+
+  AOS.refresh();
+}, []);
+
 
   return (
     <Router>

@@ -41,7 +41,7 @@ export default function Features() {
       </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <div className="text-center mb-20" data-aos="fade-up">
+        <div className="text-center mb-20" data-aos="fade-down">
             <span className="text-orange-600 font-bold tracking-wider uppercase text-sm mb-3 block">Why MedFinder?</span>
             <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900 mb-6 tracking-tight">{t('features.title')}</h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto leading-relaxed">{t('features.subtitle')}</p>
@@ -77,8 +77,8 @@ function FeatureCard({ feature, index, t }) {
     <motion.div
       ref={ref}
       onMouseMove={handleMouseMove}
-      data-aos="fade-up"
-      data-aos-delay={index * 100}
+      data-aos={index % 3 === 0 ? "fade-right" : index % 3 === 1 ? "fade-up" : "fade-left"}
+      data-aos-delay={index * 200}
       initial={{ rotateX: 0, rotateY: 0 }}
       whileHover={{ scale: 1.02 }}
       className="group relative bg-white p-8 rounded-3xl border border-gray-100 shadow-sm hover:shadow-2xl transition-all duration-300 overflow-hidden"

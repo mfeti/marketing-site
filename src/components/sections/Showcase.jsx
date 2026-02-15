@@ -22,7 +22,7 @@ export default function Showcase() {
       </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <div className="text-center mb-24" data-aos="fade-up">
+        <div className="text-center mb-24" data-aos="fade-down">
            <span className="text-orange-600 font-bold tracking-wider uppercase text-sm mb-3 block">App Showcase</span>
            <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900 tracking-tight">Experience Implementation</h2>
         </div>
@@ -68,7 +68,7 @@ export default function Showcase() {
               <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full bg-blue-500/10 blur-[80px] -z-10 rounded-full" />
            </div>
 
-           <div className="flex-1 text-center md:text-left" data-aos="fade-up" data-aos-duration="1000">
+           <div className="flex-1 text-center md:text-left" data-aos="fade-left" data-aos-duration="1000">
               <h3 className="text-3xl md:text-5xl font-extrabold text-gray-900 mb-6 leading-tight">
                 {t('features.inventory.title')}
               </h3>
@@ -130,7 +130,7 @@ export default function Showcase() {
               <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full bg-orange-500/10 blur-[80px] -z-10 rounded-full" />
            </div>
 
-           <div className="flex-1 text-center md:text-left" data-aos="fade-down" data-aos-duration="1000">
+           <div className="flex-1 text-center md:text-left" data-aos="fade-right" data-aos-duration="1000">
               <h3 className="text-3xl md:text-5xl font-extrabold text-gray-900 mb-6 leading-tight">
                 {t('features.analytics.title')}
               </h3>

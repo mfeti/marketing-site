@@ -17,7 +17,7 @@ export default function FAQ() {
       </div>
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <div className="text-center mb-16" data-aos="fade-up">
+        <div className="text-center mb-16" data-aos="fade-down">
            <span className="text-orange-600 font-bold tracking-wider uppercase text-sm mb-3 block">Common Questions</span>
           <motion.h2 
             initial={{ opacity: 0, y: 20 }}
@@ -58,6 +58,7 @@ function FAQItem({ faq, index }) {
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       transition={{ delay: index * 0.1 }}
+      data-aos={index % 2 === 0 ? "fade-right" : "fade-left"}
       className={`rounded-2xl overflow-hidden transition-all duration-300 ${isOpen ? 'bg-white shadow-lg ring-1 ring-black/5' : 'bg-white/50 hover:bg-white hover:shadow-md'}`}
     >
       <button
