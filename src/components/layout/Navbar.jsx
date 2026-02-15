@@ -7,8 +7,8 @@ import { Link, useLocation, useNavigate } from 'react-router-dom';
 const languages = [
   { code: 'en', name: 'English', flag: '🇬🇧' },
   { code: 'am', name: 'Amharic', flag: '🇪🇹' },
-  { code: 'or', name: 'Afaan Oromo', flag: '🌳' },
-  { code: 'ti', name: 'Tigrinya', flag: '⛰️' },
+  { code: 'or', name: 'Afaan Oromo', flag: '🇪🇹' },
+  { code: 'ti', name: 'Tigrinya', flag: '🇪🇹' },
 ];
 
 export default function Navbar() {
@@ -112,7 +112,7 @@ export default function Navbar() {
                 onClick={() => setLangMenuOpen(!langMenuOpen)}
                 className="flex items-center space-x-2 text-gray-600 hover:text-orange-500 font-medium px-3 py-2 rounded-full hover:bg-gray-50 transition-colors"
               >
-                <Globe size={18} />
+                <span className="text-xl">{languages.find(l => l.code === i18n.language)?.flag || '🇬🇧'}</span>
                 <span className="uppercase text-sm font-semibold">{i18n.language.split('-')[0]}</span>
                 <ChevronDown size={14} className={`transition-transform duration-300 ${langMenuOpen ? 'rotate-180' : ''}`} />
               </button>

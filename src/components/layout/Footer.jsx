@@ -60,10 +60,10 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-bold mb-6">{t('footer.product')}</h3>
             <ul className="space-y-4">
-              <li><button onClick={() => scrollToSection('features')} className="text-gray-400 hover:text-orange-500 transition-colors">{t('nav.features')}</button></li>
-              <li><button onClick={() => scrollToSection('plans')} className="text-gray-400 hover:text-orange-500 transition-colors">{t('nav.plans')}</button></li>
-              <li><button onClick={() => scrollToSection('testimonials')} className="text-gray-400 hover:text-orange-500 transition-colors">{t('testimonials.title')}</button></li>
-              <li><button onClick={() => scrollToSection('faq')} className="text-gray-400 hover:text-orange-500 transition-colors">{t('faq.title')}</button></li>
+              <li><button onClick={() => scrollToSection('features')} className="text-gray-400 hover:text-orange-500 transition-colors cursor-pointer text-left">{t('nav.features')}</button></li>
+              <li><button onClick={() => scrollToSection('plans')} className="text-gray-400 hover:text-orange-500 transition-colors cursor-pointer text-left">{t('nav.plans')}</button></li>
+              <li><button onClick={() => scrollToSection('testimonials')} className="text-gray-400 hover:text-orange-500 transition-colors cursor-pointer text-left">{t('testimonials.title')}</button></li>
+              <li><button onClick={() => scrollToSection('faq')} className="text-gray-400 hover:text-orange-500 transition-colors cursor-pointer text-left">{t('faq.title')}</button></li>
             </ul>
           </div>
 

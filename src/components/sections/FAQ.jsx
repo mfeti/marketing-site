@@ -3,6 +3,8 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Plus, Minus, MessageCircleQuestion } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
+import { Link } from 'react-router-dom';
+
 export default function FAQ() {
   const { t } = useTranslation();
   
@@ -32,17 +34,17 @@ export default function FAQ() {
 
         <div className="space-y-4">
           {(t('faq.items', { returnObjects: true }) || []).map((faq, index) => (
-            <FAQItem key={index} faq={faq} index={index} />
+             <FAQItem key={index} faq={faq} index={index} />
           ))}
         </div>
 
         {/* Contact Support CTA */}
         <div className="mt-16 text-center">
             <p className="text-gray-500 mb-4">Still have questions?</p>
-            <a href="#contact" className="inline-flex items-center gap-2 text-orange-600 font-bold hover:text-orange-700 transition-colors">
+            <Link to="/contact" className="inline-flex items-center gap-2 text-orange-600 font-bold hover:text-orange-700 transition-colors">
                 <MessageCircleQuestion size={20} />
                 Contact our support team
-            </a>
+            </Link>
         </div>
       </div>
     </section>

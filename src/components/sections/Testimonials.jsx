@@ -67,27 +67,27 @@ export default function Testimonials() {
                           <Star key={i} size={16} fill="currentColor" strokeWidth={0} />
                         ))}
                       </div>
-                      <div className="bg-blue-500/10 px-3 py-1 rounded-full flex items-center gap-1.5 border border-blue-500/20">
+                      <div className="bg-green-500/10 px-3 py-1 rounded-full flex items-center gap-1.5 border border-green-500/20">
                          <div className="relative flex h-2 w-2">
-                            <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-400 opacity-75"></span>
-                            <span className="relative inline-flex rounded-full h-2 w-2 bg-blue-500"></span>
+                            <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
+                            <span className="relative inline-flex rounded-full h-2 w-2 bg-green-500"></span>
                          </div>
-                         <span className="text-xs font-semibold text-blue-300">Verified</span>
+                         <span className="text-xs font-semibold text-green-400">Verified</span>
                       </div>
                     </div>
                     
-                    <p className="text-lg text-gray-300 mb-8 leading-relaxed italic relative z-10">
+                    <p className="text-lg text-gray-300 mb-8 leading-relaxed italic relative z-10 line-clamp-4 min-h-[7rem]">
                       "{item.quote}"
                     </p>
                   </div>
 
                   <div className="flex items-center gap-4 border-t border-gray-700/50 pt-6">
-                    <div className="w-12 h-12 rounded-full bg-gray-700 flex items-center justify-center text-xl font-bold text-gray-300">
+                    <div className="w-12 h-12 rounded-full bg-gray-700 flex items-center justify-center text-xl font-bold text-gray-300 shrink-0">
                       {item.name.charAt(0)}
                     </div>
                     <div>
                       <p className="font-bold text-white text-lg">{item.name}</p>
-                      <p className="text-orange-400 text-sm font-medium">{item.role}</p>
+                      <p className="text-gray-500 text-sm font-medium">{item.role}</p>
                     </div>
                   </div>
                 </div>
