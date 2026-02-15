@@ -21,7 +21,8 @@ export default function Blog() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {(t('blog.posts', { returnObjects: true }) || []).map((post, index) => (
+            {/* Use the hardcoded posts array instead of the translation */}
+            {(posts || []).map((post, index) => (
                 <motion.article 
                     key={index}
                     initial={{ opacity: 0, y: 20 }}
@@ -30,7 +31,18 @@ export default function Blog() {
                     transition={{ delay: index * 0.1 }}
                     className="bg-white rounded-2xl overflow-hidden border border-gray-100 hover:shadow-lg transition-shadow cursor-pointer group"
                 >
-                    <div className="h-48 bg-gray-200 group-hover:bg-orange-100 transition-colors"></div>
+                    {/* Display the image if available */}
+                    {post.image && (
+                        <div className="h-48 overflow-hidden">
+                            <img src={post.image} alt={post.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+                        </div>
+                    )}
+                    {/* Fallback if no image, or if the original div was intended for a placeholder */}
+                    {!post.image && 
+                      <div className="h-48 bg-gray-200 group-hover:bg-orange-100 transition-colors overflow-hidden">
+                        <img src={post.image} alt={post.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                    </div>
+                    }
                     <div className="p-8">
                         <div className="flex items-center justify-between text-sm text-gray-500 mb-4">
                             <span className="bg-orange-50 text-orange-600 px-2 py-1 rounded-md font-medium">{post.category}</span>

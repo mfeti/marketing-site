@@ -26,8 +26,8 @@ export default function About() {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-             <div className="bg-orange-100 rounded-3xl p-8 aspect-video flex items-center justify-center">
-                <span className="text-orange-500 font-bold text-2xl">{t('about.t_photo')}</span>
+             <div className="rounded-3xl overflow-hidden aspect-video shadow-xl">
+                <img src="/images/team.jpg" alt="MedFinder Team" className="w-full h-full object-cover" />
              </div>
           </motion.div>
           
