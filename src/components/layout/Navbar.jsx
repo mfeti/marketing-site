@@ -56,14 +56,14 @@ export default function Navbar() {
 
   return (
     <nav 
-      className={`fixed w-full z-50 transition-all duration-500 ${
+      className={`fixed top-4 left-1/2 -translate-x-1/2 z-50 transition-all duration-500 rounded-full border ${
         scrolled 
-          ? 'bg-white/80 backdrop-blur-xl shadow-lg border-b border-white/20' 
-          : 'bg-transparent py-4'
+          ? 'w-[96%] max-w-[1400px] bg-white/70 backdrop-blur-2xl shadow-2xl shadow-black/5 border-white/40 py-1' 
+          : 'w-full max-w-[1600px] bg-transparent border-transparent py-4'
       }`}
     >
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-20">
+      <div className="max-w-full mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="flex justify-between items-center h-14">
           {/* Logo */}
           <motion.div 
             initial={{ opacity: 0, x: -20 }}
