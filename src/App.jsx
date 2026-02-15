@@ -1,4 +1,10 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+
 import Layout from './components/layout/Layout';
 import ScrollToTop from './components/layout/ScrollToTop';
 import Home from './pages/Home';
@@ -10,6 +16,14 @@ import Privacy from './pages/Privacy';
 import Terms from './pages/Terms';
 
 function App() {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      once: true,
+      easing: 'ease-out-cubic',
+    });
+  }, []);
+
   return (
     <Router>
       <ScrollToTop />

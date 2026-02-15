@@ -3,7 +3,10 @@
     "features": "Features",
     "plans": "Plans",
     "support": "Support",
-    "download": "Download App"
+    "download": "Download App",
+    "about": "About Us",
+    "blog": "Blog",
+    "contact": "Contact"
   },
   "hero": {
     "headline": "Run Your Pharmacy From Your Phone",
@@ -87,6 +90,16 @@
         "name": "Yonas Mekonnen",
         "role": "Manager, City Med",
         "quote": "Finally an app that works seamlessly in Amharic. Customer support is fantastic and they truly listen to our feedback."
+      },
+      {
+        "name": "Tigist Haile",
+        "role": "Pharmacist, Red Cross Pharmacy",
+        "quote": "The barcode scanner is a lifesaver. Inventory counts that used to take days now take just a few hours."
+      },
+      {
+        "name": "Dawit Assefa",
+        "role": "Owner, Salam Pharmacy",
+        "quote": "I can monitor my three branches from home. The multi-store feature is exactly what I needed to expand my business."
       }
     ]
   },
