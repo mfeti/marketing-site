@@ -1,66 +1,66 @@
 {
   "nav": {
-    "features": "Features",
-    "plans": "Plans",
-    "support": "Support",
-    "download": "Download App"
+    "features": "ባህሪያት",
+    "plans": "እቅዶች",
+    "support": "ድጋፍ",
+    "download": "አፕሊኬሽኑን ያውርዱ"
   },
   "hero": {
-    "headline": "Run Your Pharmacy From Your Phone",
-    "subheadline": "MedFinder helps you track inventory, monitor sales, manage staff, and run analytics — all from your mobile device.",
-    "cta_app_store": "Download on App Store",
-    "cta_google_play": "Get it on Google Play"
+    "headline": "ፋርማሲዎን ከስልክዎ ያቀናብሩ",
+    "subheadline": "ሜድፋይንደር ኢንቬንቶሪን ለመከታተል፣ ሽያጭን ለመቆጣጠር፣ ሰራተኞችን ለማስተዳደር እና ሪፖርቶችን ለማየት ይረዳዎታል - ሁሉንም ከሞባይል ስልክዎ።",
+    "cta_app_store": "ከ App Store ያውርዱ",
+    "cta_google_play": "ከ Google Play ያግኙ"
   },
   "features": {
-    "title": "Everything you need to grow",
-    "subtitle": "Powerful tools built specifically for Ethiopian pharmacies.",
-    "inventory": { "title": "Inventory Tracking", "desc": "Real-time tracking of stock levels, batch numbers, and prices." },
-    "analytics": { "title": "Sales & Analytics", "desc": "Visualize daily sales, profit margins, and top-selling items." },
-    "scanner": { "title": "Barcode Scanner", "desc": "Scan medicines instantly to sell or add to inventory." },
-    "alerts": { "title": "Expiry Alerts", "desc": "Get notified before medicines expire or stock runs low." },
-    "multistore": { "title": "Multi-store Support", "desc": "Manage multiple pharmacy branches from a single account." },
-    "staff": { "title": "Staff Management", "desc": "Assign roles and permissions to your pharmacists." },
-    "csv": { "title": "CSV Import/Export", "desc": "Bulk import medicines and export reports for accounting." }
+    "title": "ለማደግ የሚያስፈልጉዎት ነገሮች ሁሉ",
+    "subtitle": "ለኢትዮጵያ ፋርማሲዎች የተሰሩ ኃይለኛ መሳሪያዎች።",
+    "inventory": { "title": "የኢንቬንቶሪ ክትትል", "desc": "የክምችት ደረጃ፣ ባች ቁጥር እና ዋጋን በቅጽበት ይከታተሉ።" },
+    "analytics": { "title": "ሽያጭ እና ትንታኔ", "desc": "የቀን ሽያጭ፣ ትርፍ እና በብዛት የተሸጡ እቃዎችን በግልጽ ይመልከቱ።" },
+    "scanner": { "title": "የባርኮድ ስካነር", "desc": "መድሃኒቶችን ለመሸጥ ወይም ለመመዝገብ በፍጥነት ይቃኙ።" },
+    "alerts": { "title": "የጊዜ ማስጠንቀቂያ", "desc": "መድሃኒቶች ጊዜያቸው ከማለፉ በፊት ወይም ክምችት ከማለቁ በፊት ማሳወቂያ ያግኙ።" },
+    "multistore": { "title": "የብዝሃ-ቅርንጫፍ ድጋፍ", "desc": "በርካታ የፋርማሲ ቅርንጫፎችን ከአንድ አካውንት ያቀናብሩ።" },
+    "staff": { "title": "የሰራተኛ አስተዳደር", "desc": "ለፋርማሲስቶችዎ ሚና እና ፈቃድ ይስጡ።" },
+    "csv": { "title": "CSV ማስገባት/ማውጣት", "desc": "መድሃኒቶችን በብዛት ያስገቡ፤ ሪፖርቶችን ለሂሳብ ያውጡ።" }
   },
   "pricing": {
-    "title": "Simple, Transparent Pricing",
-    "monthly": "/ month",
+    "title": "ቀላል እና ግልጽ ዋጋ",
+    "monthly": "/ በወር",
     "plans": {
       "basic": {
-        "name": "Basic",
+        "name": "መሰረታዊ",
         "price": "199",
-        "desc": "Perfect for small pharmacies just starting out."
+        "desc": "ለጀማሪ እና አነስተኛ ፋርማሲዎች።"
       },
       "standard": {
-        "name": "Standard",
+        "name": "መደበኛ",
         "price": "499",
-        "desc": "Best for growing pharmacies with active sales.",
-        "popular": "Most Popular"
+        "desc": "በማደግ ላይ ለሚገኙ እና ንቁ ሽያጭ ላላቸው።",
+        "popular": "በጣም ተወዳጅ"
       },
       "premium": {
-        "name": "Premium",
+        "name": "ፕሪሚየም",
         "price": "999",
-        "desc": "For large pharmacies and chains needing advanced tools."
+        "desc": "ለትላልቅ ፋርማሲዎች እና ሰንሰለቶች።"
       }
     },
     "features": {
-      "500_meds": "Up to 500 medicines",
-      "unlimited_meds": "Unlimited medicines",
-      "1_staff": "1 staff member",
-      "5_staff": "Up to 5 staff members",
-      "unlimited_staff": "Unlimited staff",
-      "core_features": "Core inventory features",
-      "csv_export": "CSV export + forecasts",
-      "multistore": "Multi-store management",
-      "ai_prediction": "AI demand prediction",
-      "priority_support": "Priority support"
+      "500_meds": "እስከ 500 መድሃኒቶች",
+      "unlimited_meds": "ያልተገደበ መድሃኒቶች",
+      "1_staff": "1 ሰራተኛ",
+      "5_staff": "እስከ 5 ሰራተኞች",
+      "unlimited_staff": "ያልተገደበ ሰራተኞች",
+      "core_features": "መሰረታዊ የኢንቬንቶሪ ባህሪያት",
+      "csv_export": "CSV ማውጣት + ትንበያ",
+      "multistore": "የብዝሃ-ቅርንጫፍ አስተዳደር",
+      "ai_prediction": "AI የፍላጎት ትንበያ",
+      "priority_support": "ቅድሚያ የሚሰጠው ድጋፍ"
     },
-    "cta": "Choose Plan"
+    "cta": "እቅድ ይምረጡ"
   },
   "download": {
-    "title": "Ready to modernize your pharmacy?",
-    "subtitle": "Join hundreds of pharmacies across Ethiopia using MedFinder today.",
-    "cta": "Get Started Now"
+    "title": "ፋርማሲዎን ለማዘመን ዝግጁ ነዎት?",
+    "subtitle": "ዛሬውኑ ሜድፋይንደርን የሚጠቀሙ በመቶዎች የሚቆጠሩ ፋርማሲዎችን ይቀላቀሉ።",
+    "cta": "አሁኑኑ ይጀምሩ"
   },
   "footer": {
     "product": "ምርት",
@@ -184,5 +184,53 @@
         "email": "you@example.com",
         "message": "ምን ልንርዳዎ?"
     }
+  },
+  "privacy": {
+    "last_updated": "የመጨረሻው የተሻሻለው",
+    "intro_title": "1. መግቢያ",
+    "intro_text": "ሜድፋይንደር (\"እኛ\"፣ \"የእኛ\" ወይም \"እኛን\") የእርስዎን ግላዊነት ለመጠበቅ ቁርጠኛ ነው። ይህ የግላዊነት ፖሊሲ የሞባይል አፕሊኬሽናችንን እና ድረ-ገጻችንን ሲጠቀሙ መረጃዎን እንዴት እንደምንሰበስብ፣ እንደምንጠቀም፣ እንደምናጋራ እና እንደምንጠብቅ ያብራራል።",
+    "info_collect_title": "2. የምንሰበስበው መረጃ",
+    "info_collect_text": "በተለያዩ መንገዶች ስለ እርስዎ መረጃ ልንሰበስብ እንችላለን። በአፕሊኬሽኑ በኩል ልንሰበስበው የምንችለው መረጃ የሚከተሉትን ያጠቃልላል፡-",
+    "personal_data_title": "ግላዊ መረጃ",
+    "personal_data_text": "በግል የሚለዩ መረጃዎች፣ እንደ ስምዎ፣ የመላኪያ አድራሻዎ፣ የኢሜይል አድራሻዎ እና የስልክ ቁጥርዎ።",
+    "derivative_data_title": "ተያያዥ መረጃዎች",
+    "derivative_data_text": "አፕሊኬሽኑን ሲጠቀሙ ሰርቨሮቻችን በራስ-ሰር የሚሰበስቡት መረጃ፣ እንደ የእርስዎ IP አድራሻ፣ የአሳሽ አይነት፣ የስርዓተ ክወና አይነት፣ የገቡበት ሰዓት እና አፕሊኬሽኑን ከመጠቀምዎ በፊት እና በኋላ የተመለከቷቸው ገጾች።",
+    "financial_data_title": "የፋይናንስ መረጃ",
+    "financial_data_text": "የፋይናንስ መረጃ፣ እንደ ከክፍያ ዘዴዎ ጋር የተያያዙ መረጃዎች (ለምሳሌ፣ ትክክለኛ የክሬዲት ካርድ ቁጥር፣ የካርድ ብራንድ፣ የአገልግሎት ማብቂያ ቀን)፣ እነዚህም አገልግሎቶችን ከአፕሊኬሽኑ ሲገዙ፣ ሲያዙ፣ ሲመልሱ ወይም ሲቀይሩ የምንሰበስባቸው ናቸው።",
+    "use_info_title": "3. የእርስዎን መረጃ እንዴት እንደምንጠቀምበት",
+    "use_info_text": "ስለ እርስዎ ትክክለኛ መረጃ መያዝ ለስላሳ፣ ቀልጣፋ እና የተመቻቸ ተሞክሮ እንድንሰጥዎ ያስችለናል። በተለይም፣ በአፕሊኬሽኑ በኩል ስለ እርስዎ የተሰበሰበውን መረጃ ለሚከተሉት ልንጠቀምበት እንችላለን፡-",
+    "use_info_list": [
+      "የእርስዎን መለያ ለመፍጠር እና ለማስተዳደር።",
+      "ክፍያዎችን እና ተመላሽ ገንዘቦችን ለማስተናገድ።",
+      "ስለ መለያዎ ወይም ትዕዛዝዎ ኢሜይል ለመላክ።",
+      "በተጠቃሚዎች መካከል ግንኙነትን ለማስቻል",
+      "ወደፊት ወደ አፕሊኬሽኑ የሚያደርጉትን ጉብኝት የበለጠ ግላዊ ለማድረግ የእርስዎን የግል መገለጫ ለማመንጨት።"
+    ],
+    "disclosure_title": "4. የእርስዎን መረጃ ማጋራት",
+    "disclosure_text": "ስለ እርስዎ የሰበሰብነውን መረጃ በተወሰኑ ሁኔታዎች ውስጥ ልናጋራ እንችላለን። የእርስዎ መረጃ እንደሚከተለው ሊገለጽ ይችላል፡-",
+    "legal_title": "በህግ ወይም መብቶችን ለመጠበቅ",
+    "legal_text": "ስለ እርስዎ መረጃ መልቀቅ የህግ ሂደትን ምላሽ ለመስጠት፣ የፖሊሲዎቻችንን ጥሰት ለማጣራት ወይም ለማስተካከል፣ ወይም የሌሎችን መብቶች፣ ንብረት እና ደህንነት ለመጠበቅ አስፈላጊ ነው ብለን ካመንን፣ በሚመለከተው የህግ፣ ደንብ ወይም መመሪያ መሰረት መረጃዎን ልናጋራ እንችላለን።",
+    "contact_title": "5. ያግኙን",
+    "contact_text": "ስለዚህ የግላዊነት ፖሊሲ ጥያቄዎች ወይም አስተያየቶች ካሉዎት፣ እባክዎ በዚህ ያግኙን፡-"
+  },
+  "terms": {
+    "agreement_title": "1. በውሉ መስማማት",
+    "agreement_text": "እነዚህ የአገልግሎት ውሎች በእርስዎ (\"እርስዎ\") እና በሜድፋይንደር (\"እኛ\"፣ \"እኛን\" ወይም \"የእኛ\") መካከል ህጋዊ ተፈጻሚነት ያለው ስምምነት ይመሰርታሉ። ይህም የሜድፋይንደር አፕሊኬሽንን እና ድረ-ገጽን መጠቀምዎን ይመለከታል።",
+    "ip_title": "2. የአእምሯዊ ንብረት መብቶች",
+    "ip_text": "ካልተገለጸ በስተቀር፣ አፕሊኬሽኑ የኛ ንብረት ነው፤ ሁሉም የምንጭ ኮድ፣ ዳታቤዝ፣ ተግባራት፣ ሶፍትዌር፣ የድር ጣቢያ ንድፎች፣ ኦዲዮ፣ ቪዲዮ፣ ጽሑፍ፣ ፎቶግራፎች እና ግራፊክስ በአፕሊኬሽኑ ላይ ያሉት (በአጠቃላይ \"ይዘት\") እና በውስጡ የያዙት የንግድ ምልክቶች፣ የአገልግሎት ምልክቶች እና ሎጎዎች (\"ምልክቶች\") በእኛ የተያዙ ወይም ለእኛ የተሰጡ ናቸው፣ እና በቅጂ መብት እና የንግድ ምልክት ህጎች የተጠበቁ ናቸው።",
+    "user_reps_title": "3. የተጠቃሚ ውክልናዎች",
+    "user_reps_text": "አፕሊኬሽኑን በመጠቀም፣ የሚከተለውን ያረጋግጣሉ፡-",
+    "user_reps_list": [
+      "የሚያቀርblockList የምዝገባ መረጃ ሁሉ እውነት፣ ትክክለኛ፣ ወቅታዊ እና የተሟላ መሆኑን።",
+      "የመረጃውን ትክክለኛነት መጠበቅ እና አስፈላጊ ሲሆን የምዝገባ መረጃዎን ወዲያውኑ ማዘመን።",
+      "ህጋዊ አቅም እንዳለዎት እና እነዚህን የአገልግሎት ውሎች ለማክበር እንደተስማሙ።",
+      "በሚኖሩበት አገር ለአካለ መጠን የደረሱ መሆንዎ።"
+    ],
+    "prohibited_title": "4. የተከለከሉ ተግባራት",
+    "prohibited_text": "አፕሊኬሽኑን ካዘጋጀንበት ዓላማ ውጭ ለሌላ ዓላማ ሊጠቀሙበት አይችሉም። አፕሊኬሽኑ በእኛ ከተፈቀደው ወይም ከፀደቀው ውጭ ከማንኛውም የንግድ ጥረቶች ጋር በተያያዘ ስራ ላይ መዋል የለበትም።",
+    "termination_title": "5. ስምምነትን ማቋረጥ",
+    "termination_text": "በኛ ምርጫ፣ በማንኛውም ምክንያት እና ያለ ገደብ፣ ውሉን መጣስ ጨምሮ፣ ያለቅድመ ማስታወቂያ ወይም ተጠያቂነት መለያዎን ልናቋርጥ ወይም ልናገድ እና አገልግሎቱን እንዳያገኙ ልንከለክል እንችላለን።",
+    "contact_title": "6. ያግኙን",
+    "contact_text": "ከአፕሊኬሽኑ ጋር በተያያዘ ቅሬታን ለመፍታት ወይም ስለ አጠቃቀሙ ተጨማሪ መረጃ ለማግኘት፣ እባክዎ ያግኙን፡-"
   }
 }

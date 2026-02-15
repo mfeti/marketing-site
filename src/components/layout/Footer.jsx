@@ -7,6 +7,8 @@ export default function Footer() {
   const navigate = useNavigate();
   const location = useLocation();
 
+  const currentYear = new Date().getFullYear();
+
   const scrollToSection = (sectionId) => {
     if (location.pathname !== '/') {
       navigate('/');
@@ -36,7 +38,7 @@ export default function Footer() {
               <span>MedFinder</span>
             </div>
             <p className="text-gray-400 mb-6 leading-relaxed">
-              {t('hero.subtitle')}
+              {t('hero.subheadline')}
             </p>
             <div className="flex space-x-4">
               <a href="#" className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-orange-500 transition-colors">
@@ -59,31 +61,31 @@ export default function Footer() {
             <h3 className="text-lg font-bold mb-6">{t('footer.product')}</h3>
             <ul className="space-y-4">
               <li><button onClick={() => scrollToSection('features')} className="text-gray-400 hover:text-orange-500 transition-colors">{t('nav.features')}</button></li>
-              <li><button onClick={() => scrollToSection('pricing')} className="text-gray-400 hover:text-orange-500 transition-colors">{t('nav.pricing')}</button></li>
+              <li><button onClick={() => scrollToSection('plans')} className="text-gray-400 hover:text-orange-500 transition-colors">{t('nav.plans')}</button></li>
               <li><button onClick={() => scrollToSection('testimonials')} className="text-gray-400 hover:text-orange-500 transition-colors">{t('testimonials.title')}</button></li>
               <li><button onClick={() => scrollToSection('faq')} className="text-gray-400 hover:text-orange-500 transition-colors">{t('faq.title')}</button></li>
             </ul>
           </div>
 
           <div>
-            <h3 className="font-bold text-gray-900 mb-4">Company</h3>
+            <h3 className="font-bold text-white mb-4">Company</h3>
             <ul className="space-y-3">
-              <li><Link to="/about" className="text-gray-600 hover:text-orange-500 transition-colors">About Us</Link></li>
-              <li><Link to="/careers" className="text-gray-600 hover:text-orange-500 transition-colors">Careers</Link></li>
-              <li><Link to="/blog" className="text-gray-600 hover:text-orange-500 transition-colors">Blog</Link></li>
-              <li><Link to="/contact" className="text-gray-600 hover:text-orange-500 transition-colors">Contact</Link></li>
+              <li><Link to="/about" className="text-gray-400 hover:text-orange-500 transition-colors">About Us</Link></li>
+              <li><Link to="/careers" className="text-gray-400 hover:text-orange-500 transition-colors">Careers</Link></li>
+              <li><Link to="/blog" className="text-gray-400 hover:text-orange-500 transition-colors">Blog</Link></li>
+              <li><Link to="/contact" className="text-gray-400 hover:text-orange-500 transition-colors">Contact</Link></li>
             </ul>
           </div>
 
           <div>
-            <h3 className="font-bold text-gray-900 mb-4">Contact</h3>
+            <h3 className="font-bold text-white mb-4">Contact</h3>
             <ul className="space-y-3">
-              <li className="flex items-center space-x-2 text-gray-600">
+              <li className="flex items-center space-x-2 text-gray-400">
                 <Mail size={16} />
                 <span>support@medfinder.et</span>
               </li>
-              <li className="text-gray-600">+251 911 234 567</li>
-              <li className="text-gray-600">Addis Ababa, Ethiopia</li>
+              <li className="text-gray-400">+251 911 234 567</li>
+              <li className="text-gray-400">Addis Ababa, Ethiopia</li>
             </ul>
             <div className="mt-6 flex flex-col space-y-2">
               <button className="bg-black text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-gray-800 transition-colors">

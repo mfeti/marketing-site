@@ -184,5 +184,53 @@
         "email": "you@example.com",
         "message": "How can we help you?"
     }
+  },
+  "privacy": {
+    "last_updated": "Last updated",
+    "intro_title": "1. Introduction",
+    "intro_text": "MedFinder (\"we\", \"our\", or \"us\") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application and website.",
+    "info_collect_title": "2. Information We Collect",
+    "info_collect_text": "We may collect information about you in a variety of ways. The information we may collect via the Application includes:",
+    "personal_data_title": "Personal Data",
+    "personal_data_text": "Personally identifiable information, such as your name, shipping address, email address, and telephone number.",
+    "derivative_data_title": "Derivative Data",
+    "derivative_data_text": "Information our servers automatically collect when you access the Application, such as your IP address, browser type, your operating system, your access times, and the pages you have viewed directly before and after accessing the Application.",
+    "financial_data_title": "Financial Data",
+    "financial_data_text": "Financial information, such as data related to your payment method (e.g., valid credit card number, card brand, expiration date) that we may collect when you purchase, order, return, exchange, or request information about our services from the Application.",
+    "use_info_title": "3. Use of Your Information",
+    "use_info_text": "Having accurate information about you permits us to provide you with a smooth, efficient, and customized experience. Specifically, we may use information collected about you via the Application to:",
+    "use_info_list": [
+      "Create and manage your account.",
+      "Process payments and refunds.",
+      "Send you an email regarding your account or order.",
+      "Enable user-to-user communications.",
+      "Generate a personal profile about you to make future visits to the Application more personalized."
+    ],
+    "disclosure_title": "4. Disclosure of Your Information",
+    "disclosure_text": "We may share information we have collected about you in certain situations. Your information may be disclosed as follows:",
+    "legal_title": "By Law or to Protect Rights",
+    "legal_text": "If we believe the release of information about you is necessary to respond to legal process, to investigate or remedy potential violations of our policies, or to protect the rights, property, and safety of others, we may share your information as permitted or required by any applicable law, rule, or regulation.",
+    "contact_title": "5. Contact Us",
+    "contact_text": "If you have questions or comments about this Privacy Policy, please contact us at:"
+  },
+  "terms": {
+    "agreement_title": "1. Agreement to Terms",
+    "agreement_text": "These Terms of Service constitute a legally binding agreement made between you, whether personally or on behalf of an entity (\"you\") and MedFinder (\"we,\" \"us\" or \"our\"), concerning your access to and use of the MedFinder application and website.",
+    "ip_title": "2. Intellectual Property Rights",
+    "ip_text": "Unless otherwise indicated, the Application is our proprietary property and all source code, databases, functionality, software, website designs, audio, video, text, photographs, and graphics on the Application (collectively, the \"Content\") and the trademarks, service marks, and logos contained therein (the \"Marks\") are owned or controlled by us or licensed to us, and are protected by copyright and trademark laws.",
+    "user_reps_title": "3. User Representations",
+    "user_reps_text": "By using the Application, you represent and warrant that:",
+    "user_reps_list": [
+      "All registration information you submit will be true, accurate, current, and complete.",
+      "You will maintain the accuracy of such information and promptly update such registration information as necessary.",
+      "You have the legal capacity and you agree to comply with these Terms of Service.",
+      "You are not a minor in the jurisdiction in which you reside."
+    ],
+    "prohibited_title": "4. Prohibited Activities",
+    "prohibited_text": "You may not access or use the Application for any purpose other than that for which we make the Application available. The Application may not be used in connection with any commercial endeavors except those that are specifically endorsed or approved by us.",
+    "termination_title": "5. Termination",
+    "termination_text": "We may terminate or suspend your account and bar access to the Service immediately, without prior notice or liability, under our sole discretion, for any reason whatsoever and without limitation, including but not limited to a breach of the Terms.",
+    "contact_title": "6. Contact Us",
+    "contact_text": "In order to resolve a complaint regarding the Application or to receive further information regarding use of the Application, please contact us at:"
   }
 }

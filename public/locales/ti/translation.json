@@ -1,66 +1,66 @@
 {
   "nav": {
-    "features": "Features",
-    "plans": "Plans",
-    "support": "Support",
-    "download": "Download App"
+    "features": "ባህሪታት",
+    "plans": "መደባት",
+    "support": "ደገፍ",
+    "download": "አፕ ውረዱ"
   },
   "hero": {
-    "headline": "Run Your Pharmacy From Your Phone",
-    "subheadline": "MedFinder helps you track inventory, monitor sales, manage staff, and run analytics — all from your mobile device.",
-    "cta_app_store": "Download on App Store",
-    "cta_google_play": "Get it on Google Play"
+    "headline": "ፋርማሲኹም ካብ ሞባይልኩም ኣመሓድሩ",
+    "subheadline": "MedFinder ኢንቬንቶሪ ንምክትታል፣ መሸጣ ንምቁጽጻር፣ ሰራሕተኛታት ንምምሕዳርን ሪፖርት ንምርኣይን ይሕግዝ - ኩሉ ካብ ሞባይልኩም።",
+    "cta_app_store": "ካብ App Store ውረዱ",
+    "cta_google_play": "ካብ Google Play ውሰዱ"
   },
   "features": {
-    "title": "Everything you need to grow",
-    "subtitle": "Powerful tools built specifically for Ethiopian pharmacies.",
-    "inventory": { "title": "Inventory Tracking", "desc": "Real-time tracking of stock levels, batch numbers, and prices." },
-    "analytics": { "title": "Sales & Analytics", "desc": "Visualize daily sales, profit margins, and top-selling items." },
-    "scanner": { "title": "Barcode Scanner", "desc": "Scan medicines instantly to sell or add to inventory." },
-    "alerts": { "title": "Expiry Alerts", "desc": "Get notified before medicines expire or stock runs low." },
-    "multistore": { "title": "Multi-store Support", "desc": "Manage multiple pharmacy branches from a single account." },
-    "staff": { "title": "Staff Management", "desc": "Assign roles and permissions to your pharmacists." },
-    "csv": { "title": "CSV Import/Export", "desc": "Bulk import medicines and export reports for accounting." }
+    "title": "ንምዕባይ ዘድልየኩም ኩሉ",
+    "subtitle": "ንናይ ኢትዮጵያ ፋርማሲታት ዝተሰርሑ ሓያላት መሳርሒታት።",
+    "inventory": { "title": "ክትትል ኢንቬንቶሪ", "desc": "ብዛዕባ ክምችት፣ ባች ቁጽርን ዋጋን ብቀጥታ ምክትታል።" },
+    "analytics": { "title": "መሸጣን ትንተናን", "desc": "ናይ መዓልቲ መሸጣ፣ ትርፍን ብብዝሒ ዝተሸጡን ብግልጺ ርኣዩ።" },
+    "scanner": { "title": "ባርኮድ ስካነር", "desc": "መድሃኒት ንምሻጥ ወይ ንምምዝጋብ ብፍጥነት ስካን ግበሩ።" },
+    "alerts": { "title": "መጠንቀቕታ ጊዜ", "desc": "መድሃኒታት ጊዜኦም ቅድሚ ምሕላፉ ወይ ክምችት ቅድሚ ምውዳኡ ምልክታ ርከቡ።" },
+    "multistore": { "title": "ደገፍ ብዙሓት ጨናፍር", "desc": "ዝተፈላለዩ ጨናፍር ፋርማሲ ካብ ሓደ ኣካውንት ኣመሓድሩ።" },
+    "staff": { "title": "ምሕደራ ሰራሕተኛ", "desc": "ንፋርማሲስትኩም ስራሕን ፍቓድን ሃቡ።" },
+    "csv": { "title": "CSV ምእታው/ምውጻእ", "desc": "መድሃኒታት ብብዝሒ የእትዉ፤ ሪፖርት ንሕሳብ ኣውጽኡ።" }
   },
   "pricing": {
-    "title": "Simple, Transparent Pricing",
-    "monthly": "/ month",
+    "title": "ቀሊልን ግልጽን ዋጋ",
+    "monthly": "/ ወርሒ",
     "plans": {
       "basic": {
-        "name": "Basic",
+        "name": "መሰረታዊ",
         "price": "199",
-        "desc": "Perfect for small pharmacies just starting out."
+        "desc": "ንጀመርትን ንኣሽቱን ፋርማሲታት።"
       },
       "standard": {
-        "name": "Standard",
+        "name": "መደበኛ",
         "price": "499",
-        "desc": "Best for growing pharmacies with active sales.",
-        "popular": "Most Popular"
+        "desc": "ይምዕብላ ንዘለዋን ንጡፍ መሸጣ ዘለወንን።",
+        "popular": "ብጣዕሚ ተደላይ"
       },
       "premium": {
-        "name": "Premium",
+        "name": "ፕሪሚየም",
         "price": "999",
-        "desc": "For large pharmacies and chains needing advanced tools."
+        "desc": "ንዓበይቲ ፋርማሲታትን ሰንሰለታትን።"
       }
     },
     "features": {
-      "500_meds": "Up to 500 medicines",
-      "unlimited_meds": "Unlimited medicines",
-      "1_staff": "1 staff member",
-      "5_staff": "Up to 5 staff members",
-      "unlimited_staff": "Unlimited staff",
-      "core_features": "Core inventory features",
-      "csv_export": "CSV export + forecasts",
-      "multistore": "Multi-store management",
-      "ai_prediction": "AI demand prediction",
-      "priority_support": "Priority support"
+      "500_meds": "ክሳብ 500 መድሃኒታት",
+      "unlimited_meds": "ወሰን ዘይብሉ መድሃኒታት",
+      "1_staff": "1 ሰራሕተኛ",
+      "5_staff": "ክሳብ 5 ሰራሕተኛታት",
+      "unlimited_staff": "ወሰን ዘይብሎም ሰራሕተኛታት",
+      "core_features": "መሰረታዊ ባህሪታት ኢንቬንቶሪ",
+      "csv_export": "CSV ምውጻእ + ትንበያ",
+      "multistore": "ምሕደራ ብዙሓት ጨናፍር",
+      "ai_prediction": "AI ትንበያ ድሌት",
+      "priority_support": "ቅድሚያ ዝወሃቦ ደገፍ"
     },
-    "cta": "Choose Plan"
+    "cta": "መደብ ምረጹ"
   },
   "download": {
-    "title": "Ready to modernize your pharmacy?",
-    "subtitle": "Join hundreds of pharmacies across Ethiopia using MedFinder today.",
-    "cta": "Get Started Now"
+    "title": "ፋርማሲኹም ከተሐድሱ ድሉዋት ዲኹም?",
+    "subtitle": "ሎሚ MedFinder ምስ ዝጥቀሙ ኣማኢት ፋርማሲታት ኢትዮጵያ ተሓወሱ።",
+    "cta": "ሕዚ ጀምሩ"
   },
   "footer": {
     "product": "ምርቲ",
@@ -184,5 +184,53 @@
         "email": "you@example.com",
         "message": "እንታይ ንሓግዝኩም?"
     }
+  },
+  "privacy": {
+    "last_updated": "ናይ መወዳእታ ዝተመሓየሸሉ",
+    "intro_title": "1. መእተዊ",
+    "intro_text": "MedFinder (\"ንሕና\"፣ \"ናይና\" ወይ \"ንዓና\") ናይ ውልቀ ሓበሬታኹም ንምሕላው ቃል ይኣቱ። እዚ ፖሊሲ ውልቀ ነቲ ሞባይል አፕሊኬሽንናን ዌብሳይትናን ክትጥቀሙ ከለኹም ሓበሬታኹም ብከመይ ከም ንእክቦ፣ ንጥቀመሉ፣ ንገልጾን ንሕልዎን የረድእ።",
+    "info_collect_title": "2. ንእክቦ ሓበሬታ",
+    "info_collect_text": "ብዝተፈላለዩ መንገድታት ብዛዕባኹም ሓበሬታ ክንእክብ ንኽእል ኢና። በቲ አፕሊኬሽን ክንእክቦ እንኽእል ሓበሬታ እዞም ዝስዕቡ የጠቓልል፡",
+    "personal_data_title": "ግላዊ ሓበሬታ",
+    "personal_data_text": "ብውልቂ ዘለልዩ ሓበሬታታት፣ ከም ስምኩም፣ አድራሻ ጽዕነት፣ ኢሜይል አድራሻን ቁጽሪ ስልኪን።",
+    "derivative_data_title": "ተዛመድቲ ሓበሬታታት",
+    "derivative_data_text": "ነቲ አፕሊኬሽን ክትከፍትዎ ከለኹም ሰርቨራትና ብኦቶማቲክ ዝእክብዎ ሓበሬታ፣ ከም IP አድራሻ፣ ዓይነት ብራውዘር፣ ዓይነት ኦፕሬቲንግ ሲስተም፣ ዝኣተኹምሉ ሰዓትን ነቲ አፕሊኬሽን ቅድሚ ምጥቃምኩምን ድሕሪ ምጥቃምኩምን ዝረኣኹምዎም ገጻት።",
+    "financial_data_title": "ናይ ፋይናንስ ሓበሬታ",
+    "financial_data_text": "ሓበሬታ ፋይናንስ፣ ከም ምስ አገባብ ክፍሊትኩም ዝተተሓሓዙ ሓበሬታታት (ንኣብነት፣ ቅኑዕ ቁጽሪ ክሬዲት ካርድ፣ ዓይነት ካርድ፣ መዓልቲ ግዜኡ ዝውድአሉ)፣ እዚ ድማ ካብቲ አፕሊኬሽን ግልጋሎት ክትገዝኡ፣ ክትእዝዙ፣ ክትመልሱ ወይ ክትቅይሩ ከለኹም ንእክቦ እዩ።",
+    "use_info_title": "3. አጠቓቕማ ሓበሬታኹም",
+    "use_info_text": "ብዛዕባኹም ቅኑዕ ሓበሬታ ምሓዝና ቅልጡፍን ዝተመቻቸወን ተሞክሮ ክንህበኩም የኽእለና። ብፍላይ፣ በቲ አፕሊኬሽን ዝተኣከበ ሓበሬታ ንዝስዕቡ ክንጥቀመሉ ንኽእል፡",
+    "use_info_list": [
+      "አካውንትኩም ንምፍጣርን ንምምሕዳርን።",
+      "ክፍሊታትን ተመላስ ገንዘብን ንምስራሕ።",
+      "ብዛዕባ አካውንትኩም ወይ ትእዛዝኩም ኢሜይል ንምልኣኽ።",
+      "ኣብ መንጎ ተጠቀምቲ ርክብ ንምክያድ።",
+      "ናብቲ አፕሊኬሽን እትገብርዎ ዑደት ዝያዳ ግላዊ ንምግባር ናይ ውልቂ ፕሮፋይል ንምድላው።"
+    ],
+    "disclosure_title": "4. ሓበሬታኹም ምክፋል",
+    "disclosure_text": "ኣብ ዝተወሰኑ ኩነታት ብዛዕባኹም ዝኣከብናዮ ሓበሬታ ክንካፈል ንኽእል። ሓበሬታኹም ከምዚ ዝስዕብ ክግለጽ ይኽእል፡",
+    "legal_title": "ብሕጊ ወይ መሰል ንምሕላው",
+    "legal_text": "ብዛዕባኹም ሓበሬታ ምውጻእ ንሕጋዊ ጉዳይ ምላሽ ንምሃብ፣ ጥሕሰት ፖሊሲታትና ንምጽራይ ወይ ንምስትኽኻል፣ ወይ ድማ መሰል፣ ንብረትን ድሕንነትን ካልኦት ንምሕላው ኣድላዪ ኢዩ ኢልና እንተ ኣሚንና፣ ከምቲ ብሕጊ፣ ደንቢ ወይ መምርሒ ተፈቂዱ ዘሎ ሓበሬታኹም ክንካፈል ንኽእል።",
+    "contact_title": "5. ርኸቡና",
+    "contact_text": "ብዛዕባ እዚ ፖሊሲ ውልቀ ሕቶ ወይ ርኢቶ እንተለኩም፣ በዚ ርኸቡና፡"
+  },
+  "terms": {
+    "agreement_title": "1. ስምምዕ ውዕል",
+    "agreement_text": "እዚ ናይ አግልግሎት ውዕል አብ መንጎኹም (\"ንስኹም\") ከምኡ ድማ MedFinder (\"ንሕና\"፣ \"ንዓና\" ወይ \"ናይና\") ዝግበር ሕጋዊ ስምምዕ ኮይኑ፣ ንአጠቓቕማ አፕሊኬሽንን ዌብሳይትን MedFinder ይምልከት።",
+    "ip_title": "2. መሰል አእምሯዊ ንብረት",
+    "ip_text": "ካልእ እንተዘይተገሊጹ፣ እቲ አፕሊኬሽን ናይና ንብረት እዩ፤ ኩሉ ምንጪ ኮድ፣ ዳታቤዝ፣ ተግባራት፣ ሶፍትዌር፣ ዲዛይን ዌብሳይት፣ ኦድዮ፣ ቪድዮ፣ ጽሑፍ፣ ስእልታትን ግራፊክስን አብቲ አፕሊኬሽን ዘለዉ (ብሓባር \"ትሕዝቶ\") ከምኡ ድማ አብ ውሽጡ ዘለዉ ናይ ንግዲ ምልክታት፣ ናይ አግልግሎት ምልክታትን ሎጎታትን (\"ምልክታት\") ብዓና ዝተወነኑ ወይ ንዓና ዝተፈቕዱ ኮይኖም፣ ብሕጊ ኮፒራይትን ናይ ንግዲ ምልክትን ዝተሓለዉ እዮም።",
+    "user_reps_title": "3. ውክልና ተጠቃሚ",
+    "user_reps_text": "ነቲ አፕሊኬሽን ብምጥቃምኩም፣ እዞም ዝስዕቡ ተረጋግጹ፡",
+    "user_reps_list": [
+      "እተቕርብዎ ናይ ምዝገባ ሓበሬታ ኩሉ ሓቂ፣ ትኽክለኛ፣ እዋናዊን ዝተማለአን ምዃኑ።",
+      "ትኽክለኛነት እቲ ሓበሬታ ምሕላውን አድላዪ ምስ ዝኸውን ድማ እቲ ናይ ምዝገባ ሓበሬታ ብቀጥታ ምህዳስ።",
+      "ሕጋዊ ዓቕሚ ከምዘለኩምን ነዚ ናይ አግልግሎት ውዕል ንምኽባር ከምዝተሰማማዕኩምን።",
+      "አብ እትነብሩሉ ሃገር ዕድሜኹም ንአካለ መጠን ዝበጽሐ ምዃኑ።"
+    ],
+    "prohibited_title": "4. ዝተከለከሉ ተግባራት",
+    "prohibited_text": "ነቲ አፕሊኬሽን ንሕና ካብ ዘዳለናሉ ዕላማ ወጻኢ ንካልእ ዕላማ ክትጥቀሙሉ ወይ ክትአትዎ አይትኽእሉን። እቲ አፕሊኬሽን ብዓና ካብ ዝተፈቅደ ወይ ዝጸደቐ ወጻኢ ምስ ዝኾነ ናይ ንግዲ ጻዕርታት ብዝተተሓሓዘ ክውዕል የብሉን።",
+    "termination_title": "5. ውዕል ምቁራጽ",
+    "termination_text": "ብናይና ምርጫ፣ ብዝኾነ ምኽንያትን ብዘይ ገደብን፣ ምጥሓስ ውዕል ሓዊሱ፣ ብዘይ ቅድመ መጠንቀቕታ ወይ ተሓታትነት አካውንትኩም ከነቋርጽ ወይ ከነገድን ነቲ አግልግሎት ከይትረኽቡ ክንክልክልን ንኽእል ኢና።",
+    "contact_title": "6. ርኸቡና",
+    "contact_text": "ምስቲ አፕሊኬሽን ዝተተሓሓዘ ጥርዓን ንምፍታሕ ወይ ብዛዕባ አጠቓቕምኡ ተወሳኺ ሓበሬታ ንምርካብ፣ በይዞኹም ርኸቡና፡"
   }
 }

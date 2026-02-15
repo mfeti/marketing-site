@@ -1,66 +1,66 @@
 {
   "nav": {
-    "features": "Features",
-    "plans": "Plans",
-    "support": "Support",
-    "download": "Download App"
+    "features": "Amaloota",
+    "plans": "Karoora",
+    "support": "Deeggarsa",
+    "download": "Appii Buufadhaa"
   },
   "hero": {
-    "headline": "Run Your Pharmacy From Your Phone",
-    "subheadline": "MedFinder helps you track inventory, monitor sales, manage staff, and run analytics — all from your mobile device.",
-    "cta_app_store": "Download on App Store",
-    "cta_google_play": "Get it on Google Play"
+    "headline": "Farmasii Keessan Bilbila Irraa Hogganaa",
+    "subheadline": "MedFinder qoricha to'achuuf, gurgurtaa hordofuuf, hojjettoota bulchuuf fi gabaasaa ilaaluuf isin gargaara - hundaasaa bilbila keessan irraa.",
+    "cta_app_store": "App Store Irraa Buufadhaa",
+    "cta_google_play": "Google Play Irraa Argadhaa"
   },
   "features": {
-    "title": "Everything you need to grow",
-    "subtitle": "Powerful tools built specifically for Ethiopian pharmacies.",
-    "inventory": { "title": "Inventory Tracking", "desc": "Real-time tracking of stock levels, batch numbers, and prices." },
-    "analytics": { "title": "Sales & Analytics", "desc": "Visualize daily sales, profit margins, and top-selling items." },
-    "scanner": { "title": "Barcode Scanner", "desc": "Scan medicines instantly to sell or add to inventory." },
-    "alerts": { "title": "Expiry Alerts", "desc": "Get notified before medicines expire or stock runs low." },
-    "multistore": { "title": "Multi-store Support", "desc": "Manage multiple pharmacy branches from a single account." },
-    "staff": { "title": "Staff Management", "desc": "Assign roles and permissions to your pharmacists." },
-    "csv": { "title": "CSV Import/Export", "desc": "Bulk import medicines and export reports for accounting." }
+    "title": "Waan guddachuuf isin barbaachisu hunda",
+    "subtitle": "Meeshaalee humna qabeessa farmasiiwwan Itoophiyaaf hojjetaman.",
+    "inventory": { "title": "Hordoffii Inveentorii", "desc": "Baay'ina stookii, lakkoofsa baachii fi gatii yeroo sirrii ta'etti hordofaa." },
+    "analytics": { "title": "Gurgurtaa fi Xiinxala", "desc": "Gurgurtaa guyyaa, bu'aa fi oomishoota akaas gurguraman ifatti ilaalaa." },
+    "scanner": { "title": "Iskaannara Baarkoodii", "desc": "Gurguruuf ykn galmeessuuf qoricha yeruma sana iskaan godhaa." },
+    "alerts": { "title": "Akeekkachiisa Yeroo", "desc": "Qorichi osoo hin bada'iin ykn stookiin osoo hin dhumatiin dura beeksisa argadhaa." },
+    "multistore": { "title": "Deeggarsa Damee Hedduu", "desc": "Dameewwan farmasii hedduu akawuntii tokkoon bulchaa." },
+    "staff": { "title": "Bulchiinsa Hojjetaa", "desc": "Farmasistoota keessaniif gahee fi hayyama kennaa." },
+    "csv": { "title": "CSV Galchuu/Baasu", "desc": "Qoricha hedduu al tokkotti galchaa; gabaasa herregaaf baasaa." }
   },
   "pricing": {
-    "title": "Simple, Transparent Pricing",
-    "monthly": "/ month",
+    "title": "Gatii Salphaa fi Ifa Ta'e",
+    "monthly": "/ ji'atti",
     "plans": {
       "basic": {
-        "name": "Basic",
+        "name": "Bu'uura",
         "price": "199",
-        "desc": "Perfect for small pharmacies just starting out."
+        "desc": "Farmasiiwwan xixiqqoo jalqabaa jiraniif."
       },
       "standard": {
-        "name": "Standard",
+        "name": "Idil-addunyaa",
         "price": "499",
-        "desc": "Best for growing pharmacies with active sales.",
-        "popular": "Most Popular"
+        "desc": "Farmasiiwwan guddachaa jiranii fi gurgurtaa cimaa qabaniif.",
+        "popular": "Baay'ee Jaallatamaa"
       },
       "premium": {
         "name": "Premium",
         "price": "999",
-        "desc": "For large pharmacies and chains needing advanced tools."
+        "desc": "Farmasiiwwan gurguddaa fi walitti-hidhamiinsa qabaniif."
       }
     },
     "features": {
-      "500_meds": "Up to 500 medicines",
-      "unlimited_meds": "Unlimited medicines",
-      "1_staff": "1 staff member",
-      "5_staff": "Up to 5 staff members",
-      "unlimited_staff": "Unlimited staff",
-      "core_features": "Core inventory features",
-      "csv_export": "CSV export + forecasts",
-      "multistore": "Multi-store management",
-      "ai_prediction": "AI demand prediction",
-      "priority_support": "Priority support"
+      "500_meds": "Hanga qoricha 500",
+      "unlimited_meds": "Qoricha daangaa hin qabne",
+      "1_staff": "Hojjetaa 1",
+      "5_staff": "Hanga hojjettoota 5",
+      "unlimited_staff": "Hojjettoota daangaa hin qabne",
+      "core_features": "Amaloota inveentorii bu'uuraa",
+      "csv_export": "CSV baasuu + raaga",
+      "multistore": "Bulchiinsa damee hedduu",
+      "ai_prediction": "Raaga fedhuu AI",
+      "priority_support": "Deeggarsa dursa kennamuuf"
     },
-    "cta": "Choose Plan"
+    "cta": "Karoora Filadhaa"
   },
   "download": {
-    "title": "Ready to modernize your pharmacy?",
-    "subtitle": "Join hundreds of pharmacies across Ethiopia using MedFinder today.",
-    "cta": "Get Started Now"
+    "title": "Farmasii keessan ammayyeessuuf qophiidhaa?",
+    "subtitle": "Har'a farmasiiwwan dhibbaan lakkaa'aman kanneen MedFinder fayyadamanitti makamaa.",
+    "cta": "Ammuma Eegalaa"
   },
   "footer": {
     "product": "Oomisha",
@@ -184,5 +184,53 @@
         "email": "you@example.com",
         "message": "Maal isin gargaarru?"
     }
+  },
+  "privacy": {
+    "last_updated": "Yeroo dhumaaf kan fooyya'e",
+    "intro_title": "1. Seensa",
+    "intro_text": "MedFinder (\"Nuti\", \"Keenya\" ykn \"Nu\") dhuunfaa keessan eeguuf kutannoo qaba. Imaammanni Dhuunfaa kun yeroo isin appilikeeshinii fi weebsaayitii keenya fayyadamtan odeeffannoo keessan akkamitti akka walitti qabnu, itti fayyadamnu, ibsinu fi eegnu ibsa.",
+    "info_collect_title": "2. Odeeffannoo Nuti Walitti Qabnu",
+    "info_collect_text": "Karaalee adda addaatiin odeeffannoo waa'ee keessan walitti qabuu dandeenya. Odeeffannoo nuti Appilikeeshinii irraa walitti qabnu kanneen armaan gadii dabalata:",
+    "personal_data_title": "Daataa Dhuunfaa",
+    "personal_data_text": "Odeeffannoo dhuunfaa kan akka maqaa, teessoo ergaa, teessoo imeelii fi lakkoofsa bilbilaa.",
+    "derivative_data_title": "Daataa Argamaa",
+    "derivative_data_text": "Odeeffannoo sarvaroonni keenya ofumaan walitti qaban yeroo isin Appilikeeshinicha seentan; kan akka teessoo IP, gosa braawuzarii, sirna hojii (OS), yeroo seentan fi fuulota isin Appilikeeshinicha fayyadamuu keessan duraa fi booda ilaaltan.",
+    "financial_data_title": "Daataa Faayinaasi",
+    "financial_data_text": "Odeeffannoo faayinaasii, kanneen akka mala kaffaltii keessan (fkn, lakkoofsa kaardii liqii, gosa kaardii, guyyaa itti darbu) kan yeroo isin bittan, ajajjan, deebistan, jijjiirtan ykn odeeffannoo tajaajila keenyaa gaafattan walitti qabnu.",
+    "use_info_title": "3. Haala Itti Fayyadama Odeeffannoo Keessanii",
+    "use_info_text": "Odeeffannoo sirrii waa'ee keessan qabaachuun tajaajila saffisaa fi mijataa akka isiniif kenninu nu dandeessisa. Keessattuu, odeeffannoo Appilikeeshinii irraa walitti qabne kanaan gadiif itti fayyadamuu dandeenya:",
+    "use_info_list": [
+      "Akawuntii keessan uumuu fi bulchuu.",
+      "Kaffaltiiwwan fi deebii maallaqaa raawwachuu.",
+      "Waa'ee akawuntii ykn ajaja keessanii imeelii isiniif erguu.",
+      "Qunnamtii fayyadamtoota gidduu jiru dandeessisuu.",
+      "Daawwanna keessan kan fuulduraa caalaatti dhuunfachiisuuf proofaayilii dhuunfaa uumuu."
+    ],
+    "disclosure_title": "4. Odeeffannoo Keessan Ibsuu",
+    "disclosure_text": "Haalota murtaa'an keessatti odeeffannoo waa'ee keessanii qaama biroof qooduu dandeenya. Odeeffannoon keessan haala kanaan gadiitiin ibsamuu danda'a:",
+    "legal_title": "Seeraan ykn Mirga Eeguuf",
+    "legal_text": "Odeeffannoo waa'ee keessan baasuun adeemsa seeraaf deebii kennuuf, cabiinsa imaammata keenyaa qulqulleessuuf ykn sirreessuuf, yookiin mirga, qabeenya fi nageenya namoota biroo eeguuf barbaachisaa ta'ee yoo argame, akkuma seeraan, dambii ykn qajeelfamaan eeyyamametti odeeffannoo keessan qooduu dandeenya.",
+    "contact_title": "5. Nu Quunnamaa",
+    "contact_text": "Imaammata Dhuunfaa kana ilaalchisee gaaffii ykn yaada yoo qabaattan, maaloo nu quunnamaa:"
+  },
+  "terms": {
+    "agreement_title": "1. Waliigaltee",
+    "agreement_text": "Waliigalteen Tajaajilaa kun waliigaltee seera qabeessa isin (\"isin\") fi MedFinder (\"nuti\", \"keenya\" ykn \"nu\") gidduutti uumame yoo ta'u, kunis itti fayyadama Appilikeeshinii fi weebsaayitii MedFinder ilaallata.",
+    "ip_title": "2. Mirga Qabeenya Sammuu",
+    "ip_text": "Yoo kan biraa ibsame malee, Appilikeeshinichi qabeenya keenya; koodii madda, kuusaa daataa, dalagaa, sooftiweerii, dizaayinii weebsaayitii, sagalee, viidiyoo, barreeffama, suur-sagalee fi giraafiksii Appilikeeshinicha irra jiran (walumatti \"Qabiyyee\") fi mallattoolee daldalaa, mallattoolee tajaajilaa fi loogoowwan achi keessa jiran (\"Mallattoolee\") kan keenya ykn kan nuuf eeyyamamaniidha; seera koppii-raayitii fi mallattoo daldalaatiinis kan eegamaniidha.",
+    "user_reps_title": "3. Bakka Bu'ummaa Fayyadamaa",
+    "user_reps_text": "Appilikeeshinicha yeroo fayyadamtan, kanneen armaan gadii mirkaneessitu:",
+    "user_reps_list": [
+      "Odeeffannoon gal-meeffannaa isin dhiyeessitan hundi dhugaa, sirrii, kan yeroo fi guutuu ta'uu isaa.",
+      "Sirrummaa odeeffannoo sanaa eeguu fi yeroo barbaachisaa ta'etti odeeffannoo gal-meeffannaa keessan battalumatti haaromsuu.",
+      "Dandeettii seeraa qabaachuu keessan fi Waliigaltee Tajaajilaa kana kabajuuf walii galuu keessan.",
+      "Biyya keessa jiraattan keessatti umrii guutuu (minor kan hin taane) ta'uu keessan."
+    ],
+    "prohibited_title": "4. Gochoota Dhorkaman",
+    "prohibited_text": "Kaayyoo nuti Appilikeeshinicha dhiyeessineef ala, kaayyoo biraaf Appilikeeshinicha fayyadamuu ykn seenuu hin dandeessan. Appilikeeshinichi dhimma daldalaa nuti kallattiin mirkaneessine ykn eeyyamne malee tajaajila biraaf ooluu hin qabu.",
+    "termination_title": "5. Waliigaltee Addaan Kutuu",
+    "termination_text": "Sababa kamiifuu fi daangaa malee, cabiinsa Waliigaltee dabalatee, murtii keenya qofaan, akeekkachiisa duraa ykn itti-gaafatamummaa malee, battalumatti akawuntii keessan cufuu ykn tajaajila akka hin arganne dhorkuu dandeenya.",
+    "contact_title": "6. Nu Quunnamaa",
+    "contact_text": "Koomii Appilikeeshinicha ilaalchisee jiru furuuf ykn waa'ee itti fayyadama Appilikeeshinichaa odeeffannoo dabalataa argachuuf, maaloo nu quunnamaa:"
   }
 }

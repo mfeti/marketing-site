@@ -1,23 +1,27 @@
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 import LanguageDetector from 'i18next-browser-languagedetector';
-import Backend from 'i18next-http-backend';
+
+import en from '../public/locales/en/translation.json';
+import am from '../public/locales/am/translation.json';
+import or from '../public/locales/or/translation.json';
+import ti from '../public/locales/ti/translation.json';
 
 i18n
-  .use(Backend)
   .use(LanguageDetector)
   .use(initReactI18next)
   .init({
-    fallbackLng: 'en',
-    debug: false,
-    interpolation: {
-      escapeValue: false, // not needed for react as it escapes by default
+    resources: {
+      en: { translation: en },
+      am: { translation: am },
+      or: { translation: or },
+      ti: { translation: ti },
     },
-    backend: {
-      loadPath: '/locales/{{lng}}/translation.json',
+    fallbackLng: 'en',
+    interpolation: {
+      escapeValue: false,
     },
     detection: {
-      order: ['queryString', 'cookie', 'localStorage', 'navigator', 'htmlTag'],
       caches: ['localStorage', 'cookie'],
     },
   });

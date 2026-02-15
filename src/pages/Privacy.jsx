@@ -1,67 +1,117 @@
 import { useTranslation, Trans } from 'react-i18next';
+import { Check, Shield, Lock, FileText } from 'lucide-react';
 
 export default function Privacy() {
   const { t } = useTranslation();
 
   return (
-    <div className="pt-32 pb-24">
-      <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 prose prose-orange lg:prose-lg">
-        <h1>{t('footer.privacy')}</h1>
-        <p className="lead text-gray-600">Last updated: February 13, 2026</p>
+    <div className="pt-32 pb-24 bg-gray-50/50">
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="bg-white rounded-3xl shadow-xl p-8 md:p-12 prose prose-orange lg:prose-lg max-w-none">
+          <h1 className="text-4xl font-bold mb-4">{t('footer.privacy')}</h1>
+          <div className="flex items-center text-sm text-gray-500 mb-12 bg-gray-50 w-fit px-4 py-2 rounded-full">
+            <span className="font-medium mr-2">{t('privacy.last_updated')}:</span>
+            <span>February 13, 2026</span>
+          </div>
 
-        <p>
-            <em>Note: The full privacy policy is currently available in English. Contact us for translations.</em>
-        </p>
+          <div className="space-y-12">
+            <section>
+              <h2 className="flex items-center text-2xl font-bold text-gray-900 mb-6">
+                <span className="bg-orange-100 text-orange-600 w-10 h-10 rounded-xl flex items-center justify-center text-lg mr-4 shadow-sm">1</span>
+                {t('privacy.intro_title').replace(/^\d+\.\s*/, '')}
+              </h2>
+              <p className="text-gray-600 leading-relaxed bg-orange-50/50 p-6 rounded-2xl border border-orange-100">
+                {t('privacy.intro_text')}
+              </p>
+            </section>
 
-        {/* 
-            For a real app, we would have full translations here. 
-            For now, we'll keep the English text but wrapped in a simple container or 
-            just acknowledge it's English-only for this demo if not fully translated.
-            
-            However, to be "production-ready" in structure, we should ideally have these in JSON.
-            Given the length, it's common to keep legal docs as separate MD files or just render English 
-            if translations aren't legally ready. 
-            
-            I will leave the hardcoded English here for the body to avoid bloating the JSON 
-            with massive blocks of text unless requested, but I'll use the title from i18n.
-        */}
+            <section>
+              <h2 className="flex items-center text-2xl font-bold text-gray-900 mb-6">
+                <span className="bg-orange-100 text-orange-600 w-10 h-10 rounded-xl flex items-center justify-center text-lg mr-4 shadow-sm">2</span>
+                {t('privacy.info_collect_title').replace(/^\d+\.\s*/, '')}
+              </h2>
+              <p className="text-gray-600 mb-6">{t('privacy.info_collect_text')}</p>
+              <div className="grid gap-6 md:grid-cols-1">
+                <div className="flex items-start p-4 rounded-2xl bg-gray-50 hover:bg-white hover:shadow-md transition-all border border-gray-100">
+                  <div className="bg-blue-100 text-blue-600 p-2 rounded-lg mr-4 mt-1">
+                    <FileText size={20} />
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-bold text-gray-900 m-0 mb-2">{t('privacy.personal_data_title')}</h3>
+                    <p className="text-gray-600 m-0 text-sm">{t('privacy.personal_data_text')}</p>
+                  </div>
+                </div>
+                <div className="flex items-start p-4 rounded-2xl bg-gray-50 hover:bg-white hover:shadow-md transition-all border border-gray-100">
+                  <div className="bg-purple-100 text-purple-600 p-2 rounded-lg mr-4 mt-1">
+                    <Shield size={20} />
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-bold text-gray-900 m-0 mb-2">{t('privacy.derivative_data_title')}</h3>
+                    <p className="text-gray-600 m-0 text-sm">{t('privacy.derivative_data_text')}</p>
+                  </div>
+                </div>
+                <div className="flex items-start p-4 rounded-2xl bg-gray-50 hover:bg-white hover:shadow-md transition-all border border-gray-100">
+                  <div className="bg-green-100 text-green-600 p-2 rounded-lg mr-4 mt-1">
+                    <Lock size={20} />
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-bold text-gray-900 m-0 mb-2">{t('privacy.financial_data_title')}</h3>
+                    <p className="text-gray-600 m-0 text-sm">{t('privacy.financial_data_text')}</p>
+                  </div>
+                </div>
+              </div>
+            </section>
 
-        <h2>1. Introduction</h2>
-        <p>
-          MedFinder ("we", "our", or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application and website.
-        </p>
+            <section>
+              <h2 className="flex items-center text-2xl font-bold text-gray-900 mb-6">
+                <span className="bg-orange-100 text-orange-600 w-10 h-10 rounded-xl flex items-center justify-center text-lg mr-4 shadow-sm">3</span>
+                {t('privacy.use_info_title').replace(/^\d+\.\s*/, '')}
+              </h2>
+              <p className="text-gray-600 mb-8">{t('privacy.use_info_text')}</p>
+              <div className="grid gap-4 md:grid-cols-2">
+                {(t('privacy.use_info_list', { returnObjects: true }) || []).map((item, index) => (
+                  <div key={index} className="flex items-start p-4 bg-white rounded-xl border border-gray-200 hover:border-orange-200 hover:shadow-md transition-all group">
+                    <div className="bg-orange-100 text-orange-500 rounded-full p-1 mr-3 mt-0.5 group-hover:bg-orange-500 group-hover:text-white transition-colors">
+                      <Check size={16} strokeWidth={3} />
+                    </div>
+                    <span className="text-gray-700 font-medium">{item}</span>
+                  </div>
+                ))}
+              </div>
+            </section>
 
-        <h2>2. Information We Collect</h2>
-        <p>We may collect information about you in a variety of ways. The information we may collect via the Application includes:</p>
-        <ul>
-          <li><strong>Personal Data:</strong> Personally identifiable information, such as your name, shipping address, email address, and telephone number.</li>
-          <li><strong>Derivative Data:</strong> Information our servers automatically collect when you access the Application, such as your IP address, browser type, your operating system, your access times, and the pages you have viewed directly before and after accessing the Application.</li>
-          <li><strong>Financial Data:</strong> Financial information, such as data related to your payment method (e.g., valid credit card number, card brand, expiration date) that we may collect when you purchase, order, return, exchange, or request information about our services from the Application.</li>
-        </ul>
+            <section>
+              <h2 className="flex items-center text-2xl font-bold text-gray-900 mb-6">
+                <span className="bg-orange-100 text-orange-600 w-10 h-10 rounded-xl flex items-center justify-center text-lg mr-4 shadow-sm">4</span>
+                {t('privacy.disclosure_title').replace(/^\d+\.\s*/, '')}
+              </h2>
+              <p className="text-gray-600 mb-6">{t('privacy.disclosure_text')}</p>
+              <div className="bg-red-50 rounded-2xl p-6 border border-red-100">
+                <h3 className="text-lg font-bold text-red-900 m-0 mb-3">{t('privacy.legal_title')}</h3>
+                <p className="text-red-700 m-0">{t('privacy.legal_text')}</p>
+              </div>
+            </section>
 
-        <h2>3. Use of Your Information</h2>
-        <p>Having accurate information about you permits us to provide you with a smooth, efficient, and customized experience. Specifically, we may use information collected about you via the Application to:</p>
-        <ul>
-          <li>Create and manage your account.</li>
-          <li>Process payments and refunds.</li>
-          <li>Send you an email regarding your account or order.</li>
-          <li>Enable user-to-user communications.</li>
-          <li>Generate a personal profile about you to make future visits to the Application more personalized.</li>
-        </ul>
-
-        <h2>4. Disclosure of Your Information</h2>
-        <p>We may share information we have collected about you in certain situations. Your information may be disclosed as follows:</p>
-        <ul>
-          <li><strong>By Law or to Protect Rights:</strong> If we believe the release of information about you is necessary to respond to legal process, to investigate or remedy potential violations of our policies, or to protect the rights, property, and safety of others, we may share your information as permitted or required by any applicable law, rule, or regulation.</li>
-        </ul>
-
-        <h2>5. Contact Us</h2>
-        <p>If you have questions or comments about this Privacy Policy, please contact us at:</p>
-        <p>
-          <strong>MedFinder</strong><br />
-          Addis Ababa, Ethiopia<br />
-          support@medfinder.et
-        </p>
+            <section className="border-t border-gray-100 pt-10 mt-10">
+              <h2 className="flex items-center text-2xl font-bold text-gray-900 mb-6">
+                <span className="bg-orange-100 text-orange-600 w-10 h-10 rounded-xl flex items-center justify-center text-lg mr-4 shadow-sm">5</span>
+                {t('privacy.contact_title').replace(/^\d+\.\s*/, '')}
+              </h2>
+              <p className="text-gray-600 mb-8">{t('privacy.contact_text')}</p>
+              <div className="bg-gray-900 text-white rounded-2xl p-8 flex flex-col md:flex-row items-start md:items-center justify-between">
+                <div>
+                  <h3 className="text-2xl font-bold text-white m-0 mb-2">MedFinder</h3>
+                  <p className="text-gray-400 m-0">Addis Ababa, Ethiopia</p>
+                </div>
+                <div className="mt-6 md:mt-0">
+                  <a href="mailto:support@medfinder.et" className="inline-flex items-center text-orange-400 font-bold hover:text-orange-300 transition-colors text-lg">
+                    support@medfinder.et
+                  </a>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
       </div>
     </div>
   );
