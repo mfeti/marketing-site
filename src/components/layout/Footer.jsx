@@ -1,35 +1,67 @@
+import { Link, useNavigate, useLocation } from 'react-router-dom';
+import { Facebook, Twitter, Instagram, Linkedin, Mail, Phone, MapPin } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
-import { Twitter, Instagram, Linkedin, Facebook, Mail } from 'lucide-react';
-import { Link } from 'react-router-dom';
 
 export default function Footer() {
   const { t } = useTranslation();
-  const currentYear = new Date().getFullYear();
+  const navigate = useNavigate();
+  const location = useLocation();
+
+  const scrollToSection = (sectionId) => {
+    if (location.pathname !== '/') {
+      navigate('/');
+      setTimeout(() => {
+        const element = document.getElementById(sectionId);
+        if (element) element.scrollIntoView({ behavior: 'smooth' });
+      }, 100);
+    } else {
+      const element = document.getElementById(sectionId);
+      if (element) element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
 
   return (
-    <footer className="bg-gray-50 border-t border-gray-100 pt-16 pb-8">
+    <footer className="bg-gray-900 text-white pt-16 pb-8">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
-          <div className="col-span-1 md:col-span-1">
-            <Link to="/" className="text-2xl font-bold text-orange-500 mb-4 block">MedFinder</Link>
-            <p className="text-gray-500 mb-6">
-              Empowering pharmacies with modern tools to track inventory, manage sales, and serve patients better.
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
+          {/* Brand & Description */}
+          <div>
+            <div
+              onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+              className="flex items-center space-x-2 text-2xl font-bold mb-6 cursor-pointer"
+            >
+              <div className="w-8 h-8 bg-orange-500 rounded-lg flex items-center justify-center">
+                <span className="text-white text-xl">M</span>
+              </div>
+              <span>MedFinder</span>
+            </div>
+            <p className="text-gray-400 mb-6 leading-relaxed">
+              {t('hero.subtitle')}
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-400 hover:text-orange-500 transition-colors"><Twitter size={20} /></a>
-              <a href="#" className="text-gray-400 hover:text-orange-500 transition-colors"><Instagram size={20} /></a>
-              <a href="#" className="text-gray-400 hover:text-orange-500 transition-colors"><Linkedin size={20} /></a>
-              <a href="#" className="text-gray-400 hover:text-orange-500 transition-colors"><Facebook size={20} /></a>
+              <a href="#" className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-orange-500 transition-colors">
+                <Facebook size={20} />
+              </a>
+              <a href="#" className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-orange-500 transition-colors">
+                <Twitter size={20} />
+              </a>
+              <a href="#" className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-orange-500 transition-colors">
+                <Instagram size={20} />
+              </a>
+              <a href="#" className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-orange-500 transition-colors">
+                <Linkedin size={20} />
+              </a>
             </div>
           </div>
 
+          {/* Quick Links */}
           <div>
-            <h3 className="font-bold text-gray-900 mb-4">Product</h3>
-            <ul className="space-y-3">
-              <li><Link to="/#features" className="text-gray-600 hover:text-orange-500 transition-colors smooth-scroll">Features</Link></li>
-              <li><Link to="/#plans" className="text-gray-600 hover:text-orange-500 transition-colors smooth-scroll">Pricing</Link></li>
-              <li><Link to="/#testimonials" className="text-gray-600 hover:text-orange-500 transition-colors smooth-scroll">Testimonials</Link></li>
-              <li><Link to="/#faq" className="text-gray-600 hover:text-orange-500 transition-colors smooth-scroll">FAQ</Link></li>
+            <h3 className="text-lg font-bold mb-6">{t('footer.product')}</h3>
+            <ul className="space-y-4">
+              <li><button onClick={() => scrollToSection('features')} className="text-gray-400 hover:text-orange-500 transition-colors">{t('nav.features')}</button></li>
+              <li><button onClick={() => scrollToSection('pricing')} className="text-gray-400 hover:text-orange-500 transition-colors">{t('nav.pricing')}</button></li>
+              <li><button onClick={() => scrollToSection('testimonials')} className="text-gray-400 hover:text-orange-500 transition-colors">{t('testimonials.title')}</button></li>
+              <li><button onClick={() => scrollToSection('faq')} className="text-gray-400 hover:text-orange-500 transition-colors">{t('faq.title')}</button></li>
             </ul>
           </div>
 
