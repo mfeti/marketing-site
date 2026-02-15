@@ -69,5 +69,120 @@
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "rights": "All rights reserved."
+  },
+  "testimonials": {
+    "title": "Trusted by Pharmacists",
+    "items": [
+      {
+        "name": "Dr. Abebe Kebede",
+        "role": "Owner, Addis Pharmacy",
+        "quote": "MedFinder completely transformed how we manage our inventory. We reduced expired medicine waste by 40% in just two months."
+      },
+      {
+        "name": "Sara Tadesse",
+        "role": "Pharmacist, Life Care",
+        "quote": "The interface is so intuitive. Even my new staff learned to use it in minutes. The sales reports are incredibly detailed."
+      },
+      {
+        "name": "Yonas Mekonnen",
+        "role": "Manager, City Med",
+        "quote": "Finally an app that works seamlessly in Amharic. Customer support is fantastic and they truly listen to our feedback."
+      }
+    ]
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "question": "Do I need internet access to use MedFinder?",
+        "answer": "MedFinder works in offline mode for most features like inventory tracking and sales. You only need internet to sync data with the cloud or manage multiple stores."
+      },
+      {
+        "question": "Can I manage multiple pharmacy branches?",
+        "answer": "Yes! Our Multi-store support allows you to manage inventory, staff, and sales for all your branches from a single dashboard."
+      },
+      {
+        "question": "Is my data secure?",
+        "answer": "Absolutely. We use industry-standard encryption to protect your data. Cloud backups ensure you never lose your records even if you lose your phone."
+      },
+      {
+        "question": "What languages does the app support?",
+        "answer": "MedFinder is fully localized in English, Amharic, Afaan Oromo, and Tigrinya."
+      },
+      {
+        "question": "How do I pay for the subscription?",
+        "answer": "We accept payments via Telebirr, CBE Birr, and other local payment methods directly within the app."
+      }
+    ]
+  },
+  "about": {
+    "title": "About MedFinder",
+    "mission": "We are on a mission to digitize Ethiopia's pharmaceutical supply chain, one pharmacy at a time.",
+    "story_title": "Our Story",
+    "story_p1": "Founded in 2024, MedFinder started with a simple observation: pharmacies in Ethiopia were struggling with manual inventory management and disjointed supply chains.",
+    "story_p2": "We built a mobile-first solution designed specifically for the local context, working offline and supporting local languages. Today, we empower hundreds of pharmacies to run more efficiently and serve their communities better.",
+    "values_title": "Our Values",
+    "t_photo": "Team Photo Placeholder",
+    "values": [
+        { "title": "Innovation", "desc": "We build technology that solves real problems." },
+        { "title": "Accessibility", "desc": "We design for everyone, regardless of language or connectivity." },
+        { "title": "Trust", "desc": "We protect our users' data and earn their confidence every day." }
+    ]
+  },
+  "careers": {
+    "title": "Join Our Team",
+    "subtitle": "Help us build the future of healthcare in Africa.",
+    "no_openings_title": "No Open Positions Currently",
+    "no_openings_desc": "We're not actively hiring right now, but we're always looking for talented individuals. Send your CV to <1>careers@medfinder.et</1> and we'll keep you in mind for future roles.",
+    "why_join_title": "Why join us?",
+    "benefits": [
+        "Remote-first culture",
+        "Competitive salary",
+        "Meaningful impact"
+    ],
+    "tech_stack_title": "Our Tech Stack"
+  },
+  "blog": {
+    "title": "Blog & Updates",
+    "subtitle": "News, specific guides, and updates from the MedFinder team.",
+    "read_more": "Read more",
+    "posts": [
+        {
+            "title": "Digital Transformation in Ethiopian Pharmacies",
+            "excerpt": "How mobile technology is replacing paper ledgers and improving inventory accuracy.",
+            "date": "Feb 10, 2026",
+            "category": "Industry"
+        },
+        {
+            "title": "MedFinder v2.4 Release Notes",
+            "excerpt": "Introducing AI-powered demand prediction and multi-store management features.",
+            "date": "Jan 25, 2026",
+            "category": "Product Update"
+        },
+        {
+            "title": "Best Practices for Medicine Storage",
+            "excerpt": "Tips for maintaining optimal storage conditions and organizing your pharmacy stock.",
+            "date": "Jan 12, 2026",
+            "category": "Guide"
+        }
+    ]
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "subtitle": "Have questions about MedFinder? We're here to help.",
+    "info_title": "Contact Information",
+    "labels": {
+        "email": "Email",
+        "phone": "Phone",
+        "office": "Office",
+        "name": "Name",
+        "message": "Message",
+        "send": "Send Message"
+    },
+    "placeholders": {
+        "name": "Your name",
+        "email": "you@example.com",
+        "message": "How can we help you?"
+    }
   }
 }

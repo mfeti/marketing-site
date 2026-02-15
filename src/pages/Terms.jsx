@@ -1,9 +1,17 @@
+import { useTranslation } from 'react-i18next';
+
 export default function Terms() {
+  const { t } = useTranslation();
+
   return (
     <div className="pt-32 pb-24">
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 prose prose-orange lg:prose-lg">
-        <h1>Terms of Service</h1>
+        <h1>{t('footer.terms')}</h1>
         <p className="lead text-gray-600">Last updated: February 13, 2026</p>
+
+        <p>
+            <em>Note: The full terms of service are currently available in English.</em>
+        </p>
 
         <h2>1. Agreement to Terms</h2>
         <p>

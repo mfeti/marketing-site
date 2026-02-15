@@ -1,9 +1,30 @@
+import { useTranslation, Trans } from 'react-i18next';
+
 export default function Privacy() {
+  const { t } = useTranslation();
+
   return (
     <div className="pt-32 pb-24">
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 prose prose-orange lg:prose-lg">
-        <h1>Privacy Policy</h1>
+        <h1>{t('footer.privacy')}</h1>
         <p className="lead text-gray-600">Last updated: February 13, 2026</p>
+
+        <p>
+            <em>Note: The full privacy policy is currently available in English. Contact us for translations.</em>
+        </p>
+
+        {/* 
+            For a real app, we would have full translations here. 
+            For now, we'll keep the English text but wrapped in a simple container or 
+            just acknowledge it's English-only for this demo if not fully translated.
+            
+            However, to be "production-ready" in structure, we should ideally have these in JSON.
+            Given the length, it's common to keep legal docs as separate MD files or just render English 
+            if translations aren't legally ready. 
+            
+            I will leave the hardcoded English here for the body to avoid bloating the JSON 
+            with massive blocks of text unless requested, but I'll use the title from i18n.
+        */}
 
         <h2>1. Introduction</h2>
         <p>

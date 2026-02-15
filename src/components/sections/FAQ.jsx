@@ -3,29 +3,6 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Plus, Minus } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
-const faqs = [
-  {
-    question: "Do I need internet access to use MedFinder?",
-    answer: "MedFinder works in offline mode for most features like inventory tracking and sales. You only need internet to sync data with the cloud or manage multiple stores."
-  },
-  {
-    question: "Can I manage multiple pharmacy branches?",
-    answer: "Yes! Our Multi-store support allows you to manage inventory, staff, and sales for all your branches from a single dashboard."
-  },
-  {
-    question: "Is my data secure?",
-    answer: "Absolutely. We use industry-standard encryption to protect your data. Cloud backups ensure you never lose your records even if you lose your phone."
-  },
-  {
-    question: "What languages does the app support?",
-    answer: "MedFinder is fully localized in English, Amharic, Afaan Oromo, and Tigrinya."
-  },
-  {
-    question: "How do I pay for the subscription?",
-    answer: "We accept payments via Telebirr, CBE Birr, and other local payment methods directly within the app."
-  }
-];
-
 export default function FAQ() {
   const { t } = useTranslation();
   
@@ -39,14 +16,16 @@ export default function FAQ() {
             viewport={{ once: true }}
             className="text-4xl font-bold text-gray-900 mb-4 tracking-tight"
           >
-            Frequently Asked Questions
+            {t('faq.title')}
           </motion.h2>
         </div>
 
         <div className="space-y-4">
-          {faqs.map((faq, index) => (
+        <div className="space-y-4">
+          {(t('faq.items', { returnObjects: true }) || []).map((faq, index) => (
             <FAQItem key={index} faq={faq} index={index} />
           ))}
+        </div>
         </div>
       </div>
     </section>

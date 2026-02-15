@@ -1,73 +1,188 @@
 {
   "nav": {
-    "features": "ባህርያት",
-    "plans": "ፕላናት",
-    "support": "ሓገዝ",
-    "download": "App ኣውርድ"
+    "features": "Features",
+    "plans": "Plans",
+    "support": "Support",
+    "download": "Download App"
   },
   "hero": {
-    "headline": "ፋርማሲኹም ካብ ተሌፎንኩም ኣመሓድሩ",
-    "subheadline": "MedFinder ንብረት ንምክትታል፣ መሸጣ ንምቁጥፃር፣ ሰራሕተኛታት ንምምሕዳርን ትንታነታት ንምስራሕን ይሕግዝ — ኩሉ ካብ ተንቀሳቃሲ ስልክኹም።",
-    "cta_app_store": "ካብ App Store ኣውርዱ",
-    "cta_google_play": "ካብ Google Play ውሰዱ"
+    "headline": "Run Your Pharmacy From Your Phone",
+    "subheadline": "MedFinder helps you track inventory, monitor sales, manage staff, and run analytics — all from your mobile device.",
+    "cta_app_store": "Download on App Store",
+    "cta_google_play": "Get it on Google Play"
   },
   "features": {
-    "title": "ንዕብየት ዘድልይዎ ኩሉ",
-    "subtitle": "ንኢትዮጵያ ፋርማሲታት ተባሂሉ ብፍሉይ ዝተሰርሐ ሓያል መሳርሒ።",
-    "inventory": { "title": "ክትትል ንብረት", "desc": "ብዛዕባ ደረጃ ክምችት፣ ቁፅሪ ባችን ዋጋታት ብንጹር ይከታተሉ።" },
-    "analytics": { "title": "መሸጣን ትንታነን", "desc": "ናይ ዕለታዊ መሸጣ፣ መኽሰብን ተሸጥቲ ዝኾኑ ኣቅሑትን ብምስሊ ተመልከቱ።" },
-    "scanner": { "title": "ባርኮድ ስካነር", "desc": " መድሃኒታት ብቕልጡፍ ንምሻጥ ወይ ናብ ክምችት ንምእታው ስካን ይግበሩ።" },
-    "alerts": { "title": "ናይ ጊዜ ማብቂያ መጠንቀቕታ", "desc": "መድሃኒታት ግዚኦም ቅድሚ ምሕላፉ ወይ ክምችት ቅድሚ ምውዳኡ ምልክታ ይረክቡ።" },
-    "multistore": { "title": "ባለብዙ ቤት-መድሃኒት ድጋፍ", "desc": "ብዙሓት ጨንፈራት ፋርማሲ ካብ ሓደ ሕሳብ የንቀሳቅሱ።" },
-    "staff": { "title": "ምምሕዳር ሰራሕተኛ", "desc": "ንፋርማሲስትታትኩም ስራሕን ፍቃድን ይመድቡሎም።" },
-    "csv": { "title": "CSV የእትዉ/ስደዱ", "desc": "መድሃኒታት ብብዝሒ የእትዉን ሪፖርት ንሕሳብ ስራሕ ይስደዱ።" }
+    "title": "Everything you need to grow",
+    "subtitle": "Powerful tools built specifically for Ethiopian pharmacies.",
+    "inventory": { "title": "Inventory Tracking", "desc": "Real-time tracking of stock levels, batch numbers, and prices." },
+    "analytics": { "title": "Sales & Analytics", "desc": "Visualize daily sales, profit margins, and top-selling items." },
+    "scanner": { "title": "Barcode Scanner", "desc": "Scan medicines instantly to sell or add to inventory." },
+    "alerts": { "title": "Expiry Alerts", "desc": "Get notified before medicines expire or stock runs low." },
+    "multistore": { "title": "Multi-store Support", "desc": "Manage multiple pharmacy branches from a single account." },
+    "staff": { "title": "Staff Management", "desc": "Assign roles and permissions to your pharmacists." },
+    "csv": { "title": "CSV Import/Export", "desc": "Bulk import medicines and export reports for accounting." }
   },
   "pricing": {
-    "title": "ቀሊልን ግልጽን ዋጋ",
-    "monthly": "/ ወርሒ",
+    "title": "Simple, Transparent Pricing",
+    "monthly": "/ month",
     "plans": {
       "basic": {
-        "name": "መሰረታዊ",
+        "name": "Basic",
         "price": "199",
-        "desc": "ንጀመርቲ ንኣሽቱ ፋርማሲታት ዝምችእ።"
+        "desc": "Perfect for small pharmacies just starting out."
       },
       "standard": {
-        "name": "ስታንዳርድ",
+        "name": "Standard",
         "price": "499",
-        "desc": "ብዝበለፀ ንዝሽጡን ንዝዓብዩን ፋርማሲታት ዝምችእ።",
-        "popular": "ብዝበለፀ ዝተፈተወ"
+        "desc": "Best for growing pharmacies with active sales.",
+        "popular": "Most Popular"
       },
       "premium": {
-        "name": "ፕሪሚየም",
+        "name": "Premium",
         "price": "999",
-        "desc": "ዝተራቀቁ መሳርሒታት ንዝደልዩ ዓበይቲ ፋርማሲታትን ጨንፈራትን።"
+        "desc": "For large pharmacies and chains needing advanced tools."
       }
     },
     "features": {
-      "500_meds": "ክሳብ 500 መድሃኒታት",
-      "unlimited_meds": "ዘይተገደበ መድሃኒታት",
-      "1_staff": "1 ሰራሕተኛ",
-      "5_staff": "ክሳብ 5 ሰራሕተኛታት",
-      "unlimited_staff": "ዘይተገደበ ሰራሕተኛታት",
-      "core_features": "በዓል ዋና ባህርያት ንብረት",
-      "csv_export": "CSV ምልኣኽ + ትንበያታት",
-      "multistore": "ምምሕዳር ብዙሓት ሱቃ",
-      "ai_prediction": "AI ትንበያ ድሌት",
-      "priority_support": "ቅድሚያ ዝወሃቦ ድጋፍ"
+      "500_meds": "Up to 500 medicines",
+      "unlimited_meds": "Unlimited medicines",
+      "1_staff": "1 staff member",
+      "5_staff": "Up to 5 staff members",
+      "unlimited_staff": "Unlimited staff",
+      "core_features": "Core inventory features",
+      "csv_export": "CSV export + forecasts",
+      "multistore": "Multi-store management",
+      "ai_prediction": "AI demand prediction",
+      "priority_support": "Priority support"
     },
-    "cta": "ፕላን ይምረፁ"
+    "cta": "Choose Plan"
   },
   "download": {
-    "title": "ፋርማሲኹም ንምዘመን ድሉው ዲኹም?",
-    "subtitle": "ብመቶታት ዝቁፀሩ ኣብ መላእ ኢትዮጵያ ዝርከቡ ፋርማሲታት ሎሚ MedFinder ይጥቀሙ ኣለው።",
-    "cta": "ሕጂ ይጀምሩ"
+    "title": "Ready to modernize your pharmacy?",
+    "subtitle": "Join hundreds of pharmacies across Ethiopia using MedFinder today.",
+    "cta": "Get Started Now"
   },
   "footer": {
-    "product": "ምርቲ",
-    "company": "ኩባንያ",
-    "contact": "ርኸቡና",
-    "privacy": "ፖሊሲ ግላዊነት",
-    "terms": "ውል ስራሕ",
-    "rights": "ኩሉ መሰል ዝተሓለወ እዩ።"
+    "product": "Product",
+    "company": "Company",
+    "contact": "Contact",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "rights": "All rights reserved."
+  },
+  "testimonials": {
+    "title": "Trusted by Pharmacists",
+    "items": [
+      {
+        "name": "Dr. Abebe Kebede",
+        "role": "Owner, Addis Pharmacy",
+        "quote": "MedFinder completely transformed how we manage our inventory. We reduced expired medicine waste by 40% in just two months."
+      },
+      {
+        "name": "Sara Tadesse",
+        "role": "Pharmacist, Life Care",
+        "quote": "The interface is so intuitive. Even my new staff learned to use it in minutes. The sales reports are incredibly detailed."
+      },
+      {
+        "name": "Yonas Mekonnen",
+        "role": "Manager, City Med",
+        "quote": "Finally an app that works seamlessly in Amharic. Customer support is fantastic and they truly listen to our feedback."
+      }
+    ]
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "question": "Do I need internet access to use MedFinder?",
+        "answer": "MedFinder works in offline mode for most features like inventory tracking and sales. You only need internet to sync data with the cloud or manage multiple stores."
+      },
+      {
+        "question": "Can I manage multiple pharmacy branches?",
+        "answer": "Yes! Our Multi-store support allows you to manage inventory, staff, and sales for all your branches from a single dashboard."
+      },
+      {
+        "question": "Is my data secure?",
+        "answer": "Absolutely. We use industry-standard encryption to protect your data. Cloud backups ensure you never lose your records even if you lose your phone."
+      },
+      {
+        "question": "What languages does the app support?",
+        "answer": "MedFinder is fully localized in English, Amharic, Afaan Oromo, and Tigrinya."
+      },
+      {
+        "question": "How do I pay for the subscription?",
+        "answer": "We accept payments via Telebirr, CBE Birr, and other local payment methods directly within the app."
+      }
+    ]
+  },
+  "about": {
+    "title": "About MedFinder",
+    "mission": "We are on a mission to digitize Ethiopia's pharmaceutical supply chain, one pharmacy at a time.",
+    "story_title": "Our Story",
+    "story_p1": "Founded in 2024, MedFinder started with a simple observation: pharmacies in Ethiopia were struggling with manual inventory management and disjointed supply chains.",
+    "story_p2": "We built a mobile-first solution designed specifically for the local context, working offline and supporting local languages. Today, we empower hundreds of pharmacies to run more efficiently and serve their communities better.",
+    "values_title": "Our Values",
+    "t_photo": "Team Photo Placeholder",
+    "values": [
+        { "title": "Innovation", "desc": "We build technology that solves real problems." },
+        { "title": "Accessibility", "desc": "We design for everyone, regardless of language or connectivity." },
+        { "title": "Trust", "desc": "We protect our users' data and earn their confidence every day." }
+    ]
+  },
+  "careers": {
+    "title": "Join Our Team",
+    "subtitle": "Help us build the future of healthcare in Africa.",
+    "no_openings_title": "No Open Positions Currently",
+    "no_openings_desc": "We're not actively hiring right now, but we're always looking for talented individuals. Send your CV to <1>careers@medfinder.et</1> and we'll keep you in mind for future roles.",
+    "why_join_title": "Why join us?",
+    "benefits": [
+        "Remote-first culture",
+        "Competitive salary",
+        "Meaningful impact"
+    ],
+    "tech_stack_title": "Our Tech Stack"
+  },
+  "blog": {
+    "title": "Blog & Updates",
+    "subtitle": "News, specific guides, and updates from the MedFinder team.",
+    "read_more": "Read more",
+    "posts": [
+        {
+            "title": "Digital Transformation in Ethiopian Pharmacies",
+            "excerpt": "How mobile technology is replacing paper ledgers and improving inventory accuracy.",
+            "date": "Feb 10, 2026",
+            "category": "Industry"
+        },
+        {
+            "title": "MedFinder v2.4 Release Notes",
+            "excerpt": "Introducing AI-powered demand prediction and multi-store management features.",
+            "date": "Jan 25, 2026",
+            "category": "Product Update"
+        },
+        {
+            "title": "Best Practices for Medicine Storage",
+            "excerpt": "Tips for maintaining optimal storage conditions and organizing your pharmacy stock.",
+            "date": "Jan 12, 2026",
+            "category": "Guide"
+        }
+    ]
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "subtitle": "Have questions about MedFinder? We're here to help.",
+    "info_title": "Contact Information",
+    "labels": {
+        "email": "Email",
+        "phone": "Phone",
+        "office": "Office",
+        "name": "Name",
+        "message": "Message",
+        "send": "Send Message"
+    },
+    "placeholders": {
+        "name": "Your name",
+        "email": "you@example.com",
+        "message": "How can we help you?"
+    }
   }
 }
