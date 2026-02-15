@@ -1,73 +1,73 @@
 {
   "nav": {
-    "features": "Features",
-    "plans": "Plans",
-    "support": "Support",
-    "download": "Download App"
+    "features": "ባህርያት",
+    "plans": "ፕላናት",
+    "support": "ሓገዝ",
+    "download": "App ኣውርድ"
   },
   "hero": {
-    "headline": "Run Your Pharmacy From Your Phone",
-    "subheadline": "MedFinder helps you track inventory, monitor sales, manage staff, and run analytics — all from your mobile device.",
-    "cta_app_store": "Download on App Store",
-    "cta_google_play": "Get it on Google Play"
+    "headline": "ፋርማሲኹም ካብ ተሌፎንኩም ኣመሓድሩ",
+    "subheadline": "MedFinder ንብረት ንምክትታል፣ መሸጣ ንምቁጥፃር፣ ሰራሕተኛታት ንምምሕዳርን ትንታነታት ንምስራሕን ይሕግዝ — ኩሉ ካብ ተንቀሳቃሲ ስልክኹም።",
+    "cta_app_store": "ካብ App Store ኣውርዱ",
+    "cta_google_play": "ካብ Google Play ውሰዱ"
   },
   "features": {
-    "title": "Everything you need to grow",
-    "subtitle": "Powerful tools built specifically for Ethiopian pharmacies.",
-    "inventory": { "title": "Inventory Tracking", "desc": "Real-time tracking of stock levels, batch numbers, and prices." },
-    "analytics": { "title": "Sales & Analytics", "desc": "Visualize daily sales, profit margins, and top-selling items." },
-    "scanner": { "title": "Barcode Scanner", "desc": "Scan medicines instantly to sell or add to inventory." },
-    "alerts": { "title": "Expiry Alerts", "desc": "Get notified before medicines expire or stock runs low." },
-    "multistore": { "title": "Multi-store Support", "desc": "Manage multiple pharmacy branches from a single account." },
-    "staff": { "title": "Staff Management", "desc": "Assign roles and permissions to your pharmacists." },
-    "csv": { "title": "CSV Import/Export", "desc": "Bulk import medicines and export reports for accounting." }
+    "title": "ንዕብየት ዘድልይዎ ኩሉ",
+    "subtitle": "ንኢትዮጵያ ፋርማሲታት ተባሂሉ ብፍሉይ ዝተሰርሐ ሓያል መሳርሒ።",
+    "inventory": { "title": "ክትትል ንብረት", "desc": "ብዛዕባ ደረጃ ክምችት፣ ቁፅሪ ባችን ዋጋታት ብንጹር ይከታተሉ።" },
+    "analytics": { "title": "መሸጣን ትንታነን", "desc": "ናይ ዕለታዊ መሸጣ፣ መኽሰብን ተሸጥቲ ዝኾኑ ኣቅሑትን ብምስሊ ተመልከቱ።" },
+    "scanner": { "title": "ባርኮድ ስካነር", "desc": " መድሃኒታት ብቕልጡፍ ንምሻጥ ወይ ናብ ክምችት ንምእታው ስካን ይግበሩ።" },
+    "alerts": { "title": "ናይ ጊዜ ማብቂያ መጠንቀቕታ", "desc": "መድሃኒታት ግዚኦም ቅድሚ ምሕላፉ ወይ ክምችት ቅድሚ ምውዳኡ ምልክታ ይረክቡ።" },
+    "multistore": { "title": "ባለብዙ ቤት-መድሃኒት ድጋፍ", "desc": "ብዙሓት ጨንፈራት ፋርማሲ ካብ ሓደ ሕሳብ የንቀሳቅሱ።" },
+    "staff": { "title": "ምምሕዳር ሰራሕተኛ", "desc": "ንፋርማሲስትታትኩም ስራሕን ፍቃድን ይመድቡሎም።" },
+    "csv": { "title": "CSV የእትዉ/ስደዱ", "desc": "መድሃኒታት ብብዝሒ የእትዉን ሪፖርት ንሕሳብ ስራሕ ይስደዱ።" }
   },
   "pricing": {
-    "title": "Simple, Transparent Pricing",
-    "monthly": "/ month",
+    "title": "ቀሊልን ግልጽን ዋጋ",
+    "monthly": "/ ወርሒ",
     "plans": {
       "basic": {
-        "name": "Basic",
+        "name": "መሰረታዊ",
         "price": "199",
-        "desc": "Perfect for small pharmacies just starting out."
+        "desc": "ንጀመርቲ ንኣሽቱ ፋርማሲታት ዝምችእ።"
       },
       "standard": {
-        "name": "Standard",
+        "name": "ስታንዳርድ",
         "price": "499",
-        "desc": "Best for growing pharmacies with active sales.",
-        "popular": "Most Popular"
+        "desc": "ብዝበለፀ ንዝሽጡን ንዝዓብዩን ፋርማሲታት ዝምችእ።",
+        "popular": "ብዝበለፀ ዝተፈተወ"
       },
       "premium": {
-        "name": "Premium",
+        "name": "ፕሪሚየም",
         "price": "999",
-        "desc": "For large pharmacies and chains needing advanced tools."
+        "desc": "ዝተራቀቁ መሳርሒታት ንዝደልዩ ዓበይቲ ፋርማሲታትን ጨንፈራትን።"
       }
     },
     "features": {
-      "500_meds": "Up to 500 medicines",
-      "unlimited_meds": "Unlimited medicines",
-      "1_staff": "1 staff member",
-      "5_staff": "Up to 5 staff members",
-      "unlimited_staff": "Unlimited staff",
-      "core_features": "Core inventory features",
-      "csv_export": "CSV export + forecasts",
-      "multistore": "Multi-store management",
-      "ai_prediction": "AI demand prediction",
-      "priority_support": "Priority support"
+      "500_meds": "ክሳብ 500 መድሃኒታት",
+      "unlimited_meds": "ዘይተገደበ መድሃኒታት",
+      "1_staff": "1 ሰራሕተኛ",
+      "5_staff": "ክሳብ 5 ሰራሕተኛታት",
+      "unlimited_staff": "ዘይተገደበ ሰራሕተኛታት",
+      "core_features": "በዓል ዋና ባህርያት ንብረት",
+      "csv_export": "CSV ምልኣኽ + ትንበያታት",
+      "multistore": "ምምሕዳር ብዙሓት ሱቃ",
+      "ai_prediction": "AI ትንበያ ድሌት",
+      "priority_support": "ቅድሚያ ዝወሃቦ ድጋፍ"
     },
-    "cta": "Choose Plan"
+    "cta": "ፕላን ይምረፁ"
   },
   "download": {
-    "title": "Ready to modernize your pharmacy?",
-    "subtitle": "Join hundreds of pharmacies across Ethiopia using MedFinder today.",
-    "cta": "Get Started Now"
+    "title": "ፋርማሲኹም ንምዘመን ድሉው ዲኹም?",
+    "subtitle": "ብመቶታት ዝቁፀሩ ኣብ መላእ ኢትዮጵያ ዝርከቡ ፋርማሲታት ሎሚ MedFinder ይጥቀሙ ኣለው።",
+    "cta": "ሕጂ ይጀምሩ"
   },
   "footer": {
-    "product": "Product",
-    "company": "Company",
-    "contact": "Contact",
-    "privacy": "Privacy Policy",
-    "terms": "Terms of Service",
-    "rights": "All rights reserved."
+    "product": "ምርቲ",
+    "company": "ኩባንያ",
+    "contact": "ርኸቡና",
+    "privacy": "ፖሊሲ ግላዊነት",
+    "terms": "ውል ስራሕ",
+    "rights": "ኩሉ መሰል ዝተሓለወ እዩ።"
   }
 }
