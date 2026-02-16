@@ -1,6 +1,13 @@
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
-import { Pill, Activity, HeartPulse, Stethoscope, Building2, Cross } from "lucide-react";
+import {
+  Pill,
+  Activity,
+  HeartPulse,
+  Stethoscope,
+  Building2,
+  Cross,
+} from "lucide-react";
 
 const pharmacies = [
   { id: "kenema", icon: Pill },
@@ -24,7 +31,7 @@ export default function TrustedBy() {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-8 text-center">
         <p className="text-gray-400 text-sm font-semibold uppercase tracking-widest">
-          {t("trusted_by", "Trusted by leading healthcare providers")}
+          {t("hero.trusted_by", "Trusted by leading healthcare providers")}
         </p>
       </div>
 
@@ -40,20 +47,22 @@ export default function TrustedBy() {
             repeatType: "loop",
           }}
         >
-          {[...pharmacies, ...pharmacies, ...pharmacies].map((pharmacy, index) => (
-            <div
-              key={index}
-              className="flex items-center gap-3 text-gray-500 hover:text-white transition-colors duration-300 group cursor-default"
-            >
-              <pharmacy.icon
-                size={24}
-                className="group-hover:text-orange-500 transition-colors duration-300"
-              />
-              <span className="text-xl font-bold font-display tracking-tight group-hover:drop-shadow-[0_0_8px_rgba(255,255,255,0.3)]">
-                {t(`trusted_companies.${pharmacy.id}`)}
-              </span>
-            </div>
-          ))}
+          {[...pharmacies, ...pharmacies, ...pharmacies].map(
+            (pharmacy, index) => (
+              <div
+                key={index}
+                className="flex items-center gap-3 text-gray-500 hover:text-white transition-colors duration-300 group cursor-default"
+              >
+                <pharmacy.icon
+                  size={24}
+                  className="group-hover:text-orange-500 transition-colors duration-300"
+                />
+                <span className="text-xl font-bold font-display tracking-tight group-hover:drop-shadow-[0_0_8px_rgba(255,255,255,0.3)]">
+                  {t(`hero.trusted_companies.${pharmacy.id}`)}
+                </span>
+              </div>
+            ),
+          )}
         </motion.div>
       </div>
     </section>
