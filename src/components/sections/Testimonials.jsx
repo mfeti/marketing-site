@@ -19,13 +19,13 @@ export default function Testimonials() {
     dotsClass: "slick-dots !bottom-[-3rem]",
     responsive: [
       {
-        breakpoint: 1024,
+        breakpoint: 1280,
         settings: {
           slidesToShow: 2,
         }
       },
       {
-        breakpoint: 640,
+        breakpoint: 850,
         settings: {
           slidesToShow: 1,
         }
