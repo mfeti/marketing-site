@@ -1,4 +1,5 @@
 import Hero from '../components/sections/Hero';
+import TrustedBy from '../components/sections/TrustedBy';
 import Features from '../components/sections/Features';
 import Showcase from '../components/sections/Showcase';
 import Pricing from '../components/sections/Pricing';
@@ -10,6 +11,7 @@ export default function Home() {
   return (
     <>
       <Hero />
+      <TrustedBy />
       <Features />
       <Showcase />
       <Pricing />

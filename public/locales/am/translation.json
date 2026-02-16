@@ -12,7 +12,18 @@
     "headline": "ፋርማሲዎን በስልኮ ያስተዳድሩ",
     "subheadline": "ሜድፋይንደር ኢንቬንቶሪን ለመከታተል፣ ሽያጭን ለመቆጣጠር፣ ሰራተኞችን ለማስተዳደር እና ሪፖርቶችን ለማየት ይረዳዎታል - ሁሉንም ከሞባይል ስልክዎ።",
     "cta_app_store": "ከ App Store ያውርዱ",
-    "cta_google_play": "ከ Google Play ያግኙ"
+    "cta_google_play": "ከ Google Play ያግኙ",
+    "trusted_by": "በእነዚህ የታመነ",
+    "trusted_companies": {
+      "kenema": "ከነማ ፋርማሲ",
+      "red_cross": "ቀይ መስቀል ፋርማሲ",
+      "addis_cardiac": "አዲስ ካርዲያክ ሴንተር",
+      "bethzatha": "ቤተዛታ ጤና",
+      "teklehaimanot": "ተክለሃይማኖት ጠቅላላ",
+      "st_paul": "ቅዱስ ጳውሎስ ሆስፒታል",
+      "black_lion": "ጥቁር አንበሳ ሆስፒታል",
+      "girum": "ግሩም ሆስፒታል"
+    }
   },
   "features": {
     "title": "ለማደግ የሚያስፈልጉዎት ነገሮች ሁሉ",

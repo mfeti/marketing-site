@@ -12,7 +12,18 @@
     "headline": "Farmasii Keessan Bilbila Irraa Hogganaa",
     "subheadline": "MedFinder qoricha to'achuuf, gurgurtaa hordofuuf, hojjettoota bulchuuf fi gabaasaa ilaaluuf isin gargaara - hundaasaa bilbila keessan irraa.",
     "cta_app_store": "App Store Irraa Buufadhaa",
-    "cta_google_play": "Google Play Irraa Argadhaa"
+    "cta_google_play": "Google Play Irraa Argadhaa",
+    "trusted_by": "Kanneen Amaname",
+    "trusted_companies": {
+      "kenema": "Faarmasii Kanamaa",
+      "red_cross": "Faarmasii Fannoo Diimaa",
+      "addis_cardiac": "Addis Cardiac Center",
+      "bethzatha": "Bethzatha Health",
+      "teklehaimanot": "Hospitaala Taklahaymaanoot",
+      "st_paul": "Hospitaala Q. Phaawuloos",
+      "black_lion": "Hospitaala Anbessaa Gurraacha",
+      "girum": "Hospitaala Girum"
+    }
   },
   "features": {
     "title": "Waan guddachuuf isin barbaachisu hunda",

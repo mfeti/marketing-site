@@ -12,7 +12,18 @@
     "headline": "Run Your Pharmacy From Your Phone",
     "subheadline": "MedFinder helps you track inventory, monitor sales, manage staff, and run analytics — all from your mobile device.",
     "cta_app_store": "Download on App Store",
-    "cta_google_play": "Get it on Google Play"
+    "cta_google_play": "Get it on Google Play",
+    "trusted_by": "Trusted by",
+    "trusted_companies": {
+      "kenema": "Kenema Pharmacy",
+      "red_cross": "Red Cross Pharmacy",
+      "addis_cardiac": "Addis Cardiac Center",
+      "bethzatha": "Bethzatha Health",
+      "teklehaimanot": "Teklehaimanot General",
+      "st_paul": "St. Paul's Hospital",
+      "black_lion": "Black Lion Hospital",
+      "girum": "Girum Hospital"
+    }
   },
   "features": {
     "title": "Everything you need to grow",
