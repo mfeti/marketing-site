@@ -9,17 +9,24 @@ export default function Testimonials() {
 
   useEffect(() => {
     setMounted(true);
+    console.log("Current window width:", window.innerWidth);
   }, []);
 
   if (!mounted) return null;
+
+  // Force initial columns based on current width (since we are fully mounted)
+  const isMobile = window.innerWidth < 768; // Safer threshold than 640
+  const isTablet = window.innerWidth >= 768 && window.innerWidth < 1280;
 
   var settings = {
     dots: true,
     arrows: false,
     infinite: true,
     speed: 500,
-    slidesToShow: 3,
+    // Explicitly set these based on current state
+    slidesToShow: isMobile ? 1 : (isTablet ? 2 : 3),
     slidesToScroll: 1,
+    initialSlide: 0,
     autoplay: true,
     autoplaySpeed: 2000,
     cssEase: "linear",
@@ -28,23 +35,15 @@ export default function Testimonials() {
     waitForAnimate: false,
     responsive: [
       {
-        breakpoint: 10000,
+        breakpoint: 1280,
         settings: {
-          slidesToShow: 3,
+          slidesToShow: 2,
           slidesToScroll: 1,
           infinite: true,
         },
       },
       {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1,
-          initialSlide: 2,
-        },
-      },
-      {
-        breakpoint: 640,
+        breakpoint: 768,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
