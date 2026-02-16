@@ -3,3 +3,27 @@
 html {
   scroll-behavior: smooth;
 }
+
+/* Slick Carousel Customization */
+.slick-dots {
+  bottom: 0px !important;
+  z-index: 50 !important;
+  position: absolute !important;
+  width: 100% !important;
+  display: flex !important;
+  justify-content: center !important;
+  list-style: none !important;
+  padding: 0;
+  margin: 0;
+}
+
+.slick-dots li button:before {
+  color: white !important;
+  opacity: 0.5 !important;
+  font-size: 10px !important;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #f97316 !important; /* orange-500 */
+  opacity: 1 !important;
+}
