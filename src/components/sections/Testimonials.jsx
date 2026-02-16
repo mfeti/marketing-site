@@ -7,10 +7,11 @@ export default function Testimonials() {
   const { t } = useTranslation();
 
   const settings = {
+    mobileFirst: true,
     dots: true,
     infinite: true,
     speed: 800,
-    slidesToShow: 3,
+    slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 2000,
@@ -19,15 +20,15 @@ export default function Testimonials() {
     dotsClass: "slick-dots !bottom-[-3rem]",
     responsive: [
       {
-        breakpoint: 1536,
+        breakpoint: 768,
         settings: {
           slidesToShow: 2,
         }
       },
       {
-        breakpoint: 1024,
+        breakpoint: 1280,
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 3,
         }
       }
     ]
